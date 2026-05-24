@@ -8,3 +8,6 @@ Thumbs.db
 
 # Docs (배포에 불필요)
 docs/
+
+# Editor dev
+editor/node_modules/
