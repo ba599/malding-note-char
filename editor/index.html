@@ -25,8 +25,9 @@
     .character-row {
       display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
       padding: 10px 14px; background: #fff; border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: box-shadow 0.15s;
     }
+    .character-row.active { box-shadow: 0 0 0 2px #4a90d9; }
     .character-row input[type="text"] {
       padding: 5px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;
     }
@@ -36,6 +37,8 @@
       padding: 5px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;
     }
     .character-row label { display: flex; align-items: center; gap: 4px; font-size: 14px; }
+    .character-row.striker { background: #fff0f0; }
+    .character-row.special { background: #f0f0ff; }
     .btn-delete {
       padding: 4px 10px; border: 1px solid #e55; border-radius: 4px;
       background: #fff; color: #e55; cursor: pointer; font-size: 13px;
@@ -52,32 +55,33 @@
       <option value="special">스페셜</option>
     </select>
     <button id="btn-sort">이름순 정렬</button>
-    <button id="btn-download" style="display:none;">JSON 다운로드</button>
     <span class="status" id="status">불러오는 중...</span>
   </div>
   <div id="character-list"></div>
   <script>
-    const RANGES = [350, 450, 550, 650, 750, 850, 1000, 1500];
+    const STRIKER_RANGES = [350, 450, 550, 650, 750, 850];
+    const SPECIAL_RANGES = [1000, 1500];
     const ROLES = ['striker', 'special'];
     const ROLE_LABELS = { striker: '스트라이커', special: '스페셜' };
     const ATTACK_TYPES = ['폭발', '관통', '분해', '신비', '진동'];
     const DEFENSE_TYPES = ['경장갑', '중장갑', '복합장갑', '특수장갑', '탄력장갑'];
-    const LS_KEY = 'ba-characters';
+
 
     let characters = [];
-    let serverMode = false;
+    let sortMode = 'none'; // 'none' | 'asc' | 'desc'
+    let activeIdx = -1;
 
     const listEl = document.getElementById('character-list');
     const filterEl = document.getElementById('filter-role');
     const statusEl = document.getElementById('status');
-    const downloadBtn = document.getElementById('btn-download');
 
     function createCharacter(role) {
+      const r = role || 'striker';
       return {
         name: '',
-        range: 650,
+        range: r === 'special' ? 1000 : 650,
         cover: false,
-        role: role || 'striker',
+        role: r,
         attackType: '폭발',
         defenseType: '경장갑',
         aliases: []
@@ -105,54 +109,83 @@
       saveTimer = setTimeout(save, 1000);
     }
 
-    async function save() {
-      localStorage.setItem(LS_KEY, JSON.stringify(characters));
+    function charsForSave() {
+      return characters.map(c => {
+        if (!c.name) return c;
+        const aliases = c.aliases.includes(c.name) ? c.aliases : [c.name, ...c.aliases];
+        return { ...c, aliases };
+      });
+    }
 
-      if (serverMode) {
-        statusEl.textContent = '저장 중...';
-        try {
-          const res = await fetch('/api/characters', {
-            method: 'PUT',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(characters, null, 2)
-          });
-          if (!res.ok) throw new Error(res.statusText);
-          statusEl.textContent = '저장됨';
-        } catch (e) {
-          statusEl.textContent = '저장 실패: ' + e.message;
-        }
-      } else {
-        statusEl.textContent = '로컬 저장됨 (오프라인)';
+    async function save() {
+      const data = charsForSave();
+      statusEl.textContent = '저장 중...';
+      try {
+        const res = await fetch('/api/characters', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data, null, 2)
+        });
+        if (!res.ok) throw new Error(res.statusText);
+        statusEl.textContent = '저장됨';
+      } catch (e) {
+        statusEl.textContent = '저장 실패: ' + e.message;
       }
     }
 
     function render() {
       listEl.innerHTML = '';
       const filter = filterEl.value;
+      const sortLabels = { none: '정렬 없음', asc: '이름순 ▲', desc: '이름순 ▼' };
+      document.getElementById('btn-sort').textContent = sortLabels[sortMode];
 
-      characters.forEach((char, idx) => {
+      let view = characters.map((char, idx) => ({ char, idx }));
+      if (sortMode === 'asc') view.sort((a, b) => a.char.name.localeCompare(b.char.name, 'ko'));
+      else if (sortMode === 'desc') view.sort((a, b) => b.char.name.localeCompare(a.char.name, 'ko'));
+      else view.reverse();
+
+      view.forEach(({ char, idx }) => {
         if (filter !== 'all' && char.role !== filter) return;
 
         const row = document.createElement('div');
-        row.className = 'character-row';
+        row.className = 'character-row ' + char.role;
 
         const nameInput = document.createElement('input');
         nameInput.type = 'text'; nameInput.name = 'name';
         nameInput.placeholder = '이름'; nameInput.value = char.name;
-        nameInput.oninput = () => { char.name = nameInput.value; scheduleSave(); };
+        if (char.name && characters.filter(c => c.name === char.name).length > 1) {
+          nameInput.style.outline = '2px solid #e55';
+          nameInput.title = '중복된 이름입니다';
+        }
+        nameInput.oninput = () => {
+          char.name = nameInput.value;
+          const dup = char.name && characters.filter(c => c.name === char.name).length > 1;
+          nameInput.style.outline = dup ? '2px solid #e55' : '';
+          nameInput.title = dup ? '중복된 이름입니다' : '';
+          scheduleSave();
+        };
 
-        const rangeSelect = makeSelect('range', RANGES, char.range);
+        const ranges = char.role === 'special' ? SPECIAL_RANGES : STRIKER_RANGES;
+        if (!ranges.includes(char.range)) char.range = ranges[0];
+        const rangeSelect = makeSelect('range', ranges, char.range);
         rangeSelect.onchange = () => { char.range = Number(rangeSelect.value); scheduleSave(); };
 
         const coverLabel = document.createElement('label');
         const coverInput = document.createElement('input');
-        coverInput.type = 'checkbox'; coverInput.checked = char.cover;
+        coverInput.type = 'checkbox';
+        if (char.role === 'special') {
+          char.cover = false;
+          coverInput.checked = false;
+          coverInput.disabled = true;
+        } else {
+          coverInput.checked = char.cover;
+        }
         coverInput.onchange = () => { char.cover = coverInput.checked; scheduleSave(); };
         coverLabel.appendChild(coverInput);
         coverLabel.appendChild(document.createTextNode('엄폐'));
 
         const roleSelect = makeSelect('role', ROLES, char.role, r => ROLE_LABELS[r]);
-        roleSelect.onchange = () => { char.role = roleSelect.value; scheduleSave(); };
+        roleSelect.onchange = () => { char.role = roleSelect.value; render(); scheduleSave(); };
 
         const atkSelect = makeSelect('attackType', ATTACK_TYPES, char.attackType);
         atkSelect.onchange = () => { char.attackType = atkSelect.value; scheduleSave(); };
@@ -173,7 +206,15 @@
         delBtn.className = 'btn-delete'; delBtn.textContent = '삭제';
         delBtn.onclick = () => { characters.splice(idx, 1); render(); scheduleSave(); };
 
-        row.append(nameInput, rangeSelect, coverLabel, roleSelect, atkSelect, defSelect, aliasInput, delBtn);
+        if (idx === activeIdx) row.classList.add('active');
+        function activateRow() {
+          listEl.querySelectorAll('.character-row.active').forEach(r => r.classList.remove('active'));
+          row.classList.add('active');
+          activeIdx = idx;
+        }
+        row.addEventListener('focusin', activateRow);
+        row.addEventListener('click', activateRow);
+        row.append(nameInput, roleSelect, atkSelect, defSelect, rangeSelect, coverLabel, aliasInput, delBtn);
         listEl.appendChild(row);
       });
     }
@@ -189,55 +230,56 @@
     filterEl.onchange = () => render();
 
     document.getElementById('btn-sort').onclick = () => {
-      characters.sort((a, b) => a.name.localeCompare(b.name, 'ko'));
+      if (sortMode === 'none') sortMode = 'asc';
+      else if (sortMode === 'asc') sortMode = 'desc';
+      else sortMode = 'none';
       render();
-      scheduleSave();
     };
 
-    downloadBtn.onclick = () => {
-      const blob = new Blob([JSON.stringify(characters, null, 2)], { type: 'application/json' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'characters.json';
-      a.click();
-      URL.revokeObjectURL(a.href);
-    };
+    function stripNameFromAliases(chars) {
+      return chars.map(c => ({
+        ...c,
+        aliases: c.aliases.filter(a => a !== c.name)
+      }));
+    }
 
     async function init() {
       try {
-        const res = await fetch('/api/health');
-        if (res.ok) serverMode = true;
-      } catch {}
-
-      const localData = localStorage.getItem(LS_KEY);
-      const localChars = localData ? JSON.parse(localData) : null;
-
-      if (serverMode) {
-        downloadBtn.style.display = 'none';
-        try {
-          const res = await fetch('/api/characters');
-          characters = await res.json();
-        } catch {
-          characters = [];
-        }
-
-        if (localChars && localChars.length > 0 && JSON.stringify(localChars) !== JSON.stringify(characters)) {
-          if (confirm('로컬에 저장된 데이터가 있습니다. 불러올까요?')) {
-            characters = localChars;
-            save();
-          } else {
-            localStorage.removeItem(LS_KEY);
-          }
-        }
+        const res = await fetch('/api/characters');
+        characters = stripNameFromAliases(await res.json());
         statusEl.textContent = '서버 연결됨';
-      } else {
-        downloadBtn.style.display = '';
-        characters = localChars || [];
-        statusEl.textContent = '오프라인 모드';
+      } catch {
+        characters = [];
+        statusEl.textContent = '서버 연결 실패';
       }
-
       render();
     }
+
+    // Tab: 같은 컬럼, 아래 행으로 이동 (Shift+Tab: 위 행)
+    listEl.addEventListener('keydown', e => {
+      if (e.key !== 'Tab') return;
+      const rows = Array.from(listEl.querySelectorAll('.character-row'));
+      if (rows.length < 2) return;
+
+      const focused = document.activeElement;
+      const currentRow = focused.closest('.character-row');
+      if (!currentRow) return;
+
+      const rowIdx = rows.indexOf(currentRow);
+      const fields = Array.from(currentRow.querySelectorAll('input, select, button'));
+      const colIdx = fields.indexOf(focused);
+      if (colIdx === -1) return;
+
+      const nextRowIdx = e.shiftKey ? rowIdx - 1 : rowIdx + 1;
+      if (nextRowIdx < 0 || nextRowIdx >= rows.length) return;
+
+      const nextFields = Array.from(rows[nextRowIdx].querySelectorAll('input, select, button'));
+      const target = nextFields[Math.min(colIdx, nextFields.length - 1)];
+      if (target) {
+        e.preventDefault();
+        target.focus();
+      }
+    });
 
     init();
   </script>

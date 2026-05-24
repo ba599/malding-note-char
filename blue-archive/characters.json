@@ -1,1 +1,3047 @@
-[]
+[
+  {
+    "name": "아카리(새해)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "아카리(새해)",
+      "떡카리",
+      "정카리"
+    ]
+  },
+  {
+    "name": "노노미",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "노노미"
+    ]
+  },
+  {
+    "name": "노노미(수영복)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "노노미(수영복)",
+      "수노미"
+    ]
+  },
+  {
+    "name": "마코토",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "마코토",
+      "대코토"
+    ]
+  },
+  {
+    "name": "무츠키",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "무츠키"
+    ]
+  },
+  {
+    "name": "무츠키(새해)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "무츠키(새해)",
+      "정츠키",
+      "뉴츠키"
+    ]
+  },
+  {
+    "name": "사츠키",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "사츠키",
+      "만마젖",
+      "맘마젖"
+    ]
+  },
+  {
+    "name": "세나",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "세나"
+    ]
+  },
+  {
+    "name": "세리카",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "세리카"
+    ]
+  },
+  {
+    "name": "세리카(새해)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "세리카(새해)",
+      "정리카",
+      "뉴리카"
+    ]
+  },
+  {
+    "name": "세리카(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "세리카(수영복)",
+      "수리카"
+    ]
+  },
+  {
+    "name": "시로코",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "시로코",
+      "흰둥이"
+    ]
+  },
+  {
+    "name": "시로코(라이딩)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "시로코(라이딩)",
+      "라로코"
+    ]
+  },
+  {
+    "name": "시로코(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "시로코(수영복)",
+      "수로코"
+    ]
+  },
+  {
+    "name": "시로코*테러",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "시로코*테러",
+      "쿠로코"
+    ]
+  },
+  {
+    "name": "아루",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아루"
+    ]
+  },
+  {
+    "name": "아루(새해)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "아루(새해)",
+      "정아루",
+      "뉴아루"
+    ]
+  },
+  {
+    "name": "아야네",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아야네",
+      "이동진"
+    ]
+  },
+  {
+    "name": "아야네(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아야네(수영복)",
+      "수야네",
+      "수동진"
+    ]
+  },
+  {
+    "name": "아카리",
+    "range": 650,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "아카리"
+    ]
+  },
+  {
+    "name": "아코",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "아코"
+    ]
+  },
+  {
+    "name": "이로하",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "이로하"
+    ]
+  },
+  {
+    "name": "이부키",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "이부키"
+    ]
+  },
+  {
+    "name": "이오리",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "이오리"
+    ]
+  },
+  {
+    "name": "이오리(수영복)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "이오리(수영복)",
+      "수오리"
+    ]
+  },
+  {
+    "name": "이즈미",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "이즈미",
+      "햄버거",
+      "햄부기",
+      "버거",
+      "부거"
+    ]
+  },
+  {
+    "name": "이즈미(수영복)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "이즈미(수영복)",
+      "수즈미",
+      "수버거"
+    ]
+  },
+  {
+    "name": "주리",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "주리"
+    ]
+  },
+  {
+    "name": "준코",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "준코"
+    ]
+  },
+  {
+    "name": "준코(새해)",
+    "range": 650,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "준코(새해)",
+      "정준코"
+    ]
+  },
+  {
+    "name": "치나츠",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "치나츠"
+    ]
+  },
+  {
+    "name": "치나츠(온천)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "치나츠(온천)",
+      "온나츠"
+    ]
+  },
+  {
+    "name": "치아키",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "치아키"
+    ]
+  },
+  {
+    "name": "카요코",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "카요코",
+      "캣맘",
+      "진순"
+    ]
+  },
+  {
+    "name": "카요코(새해)",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "카요코(새해)",
+      "정요코",
+      "뉴요코"
+    ]
+  },
+  {
+    "name": "하루나",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "하루나"
+    ]
+  },
+  {
+    "name": "하루나(새해)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "하루나(새해)",
+      "정루나",
+      "뉴루나"
+    ]
+  },
+  {
+    "name": "하루카",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "하루카"
+    ]
+  },
+  {
+    "name": "하루카(새해)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "하루카(새해)",
+      "정루카",
+      "뉴루카",
+      "새루카"
+    ]
+  },
+  {
+    "name": "호시노",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "호시노"
+    ]
+  },
+  {
+    "name": "호시노(무장, 공격)",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "호시노(무장, 공격)",
+      "공시노",
+      "임시노(공격)"
+    ]
+  },
+  {
+    "name": "호시노(무장, 방어)",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "호시노(무장, 방어)",
+      "방시노",
+      "임시노(방어)"
+    ]
+  },
+  {
+    "name": "호시노(수영복)",
+    "range": 450,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "호시노(수영복)",
+      "수시노"
+    ]
+  },
+  {
+    "name": "후우카",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "후우카"
+    ]
+  },
+  {
+    "name": "후우카(새해)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "후우카(새해)",
+      "정후카",
+      "정우카",
+      "뉴후카",
+      "뉴우카"
+    ]
+  },
+  {
+    "name": "히나",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "히나",
+      "대두"
+    ]
+  },
+  {
+    "name": "히나(수영복)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "히나(수영복)",
+      "수히나"
+    ]
+  },
+  {
+    "name": "이즈미(새해)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "이즈미(새해)",
+      "새즈미"
+    ]
+  },
+  {
+    "name": "메구",
+    "range": 450,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "메구",
+      "신비아파트"
+    ]
+  },
+  {
+    "name": "카스미",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "카스미"
+    ]
+  },
+  {
+    "name": "하루나(체육복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "하루나(체육복)",
+      "운루나",
+      "체루나"
+    ]
+  },
+  {
+    "name": "아코(드레스)",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "아코(드레스)",
+      "드아코"
+    ]
+  },
+  {
+    "name": "히나(드레스)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "히나(드레스)",
+      "드히나"
+    ]
+  },
+  {
+    "name": "아루(드레스)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "아루(드레스)",
+      "드아루"
+    ]
+  },
+  {
+    "name": "카요코(드레스)",
+    "range": 550,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "카요코(드레스)",
+      "드요코"
+    ]
+  },
+  {
+    "name": "주리(아르바이트)",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "주리(아르바이트)",
+      "알주리"
+    ]
+  },
+  {
+    "name": "세나(사복)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "세나(사복)",
+      "사세나"
+    ]
+  },
+  {
+    "name": "에리카",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "에리카"
+    ]
+  },
+  {
+    "name": "키라라",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "키라라"
+    ]
+  },
+  {
+    "name": "유우카",
+    "range": 350,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "유우카",
+      "100kg",
+      "0.1톤"
+    ]
+  },
+  {
+    "name": "노아",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "노아"
+    ]
+  },
+  {
+    "name": "코유키",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "코유키"
+    ]
+  },
+  {
+    "name": "리오",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "리오"
+    ]
+  },
+  {
+    "name": "마키",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "마키"
+    ]
+  },
+  {
+    "name": "하레",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "하레"
+    ]
+  },
+  {
+    "name": "코타마",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "코타마"
+    ]
+  },
+  {
+    "name": "치히로",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "치히로"
+    ]
+  },
+  {
+    "name": "네루",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "네루"
+    ]
+  },
+  {
+    "name": "카린",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "카린"
+    ]
+  },
+  {
+    "name": "아스나",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아스나"
+    ]
+  },
+  {
+    "name": "아카네",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아카네"
+    ]
+  },
+  {
+    "name": "토키",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "토키"
+    ]
+  },
+  {
+    "name": "히비키",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "히비키"
+    ]
+  },
+  {
+    "name": "우타하",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "우타하"
+    ]
+  },
+  {
+    "name": "코토리",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "코토리"
+    ]
+  },
+  {
+    "name": "레이",
+    "range": 850,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "레이"
+    ]
+  },
+  {
+    "name": "스미레",
+    "range": 450,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "스미레"
+    ]
+  },
+  {
+    "name": "히마리",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "히마리"
+    ]
+  },
+  {
+    "name": "에이미",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "에이미",
+      "찌퍼"
+    ]
+  },
+  {
+    "name": "유즈",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "유즈"
+    ]
+  },
+  {
+    "name": "아리스",
+    "range": 850,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "아리스"
+    ]
+  },
+  {
+    "name": "미도리",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "미도리"
+    ]
+  },
+  {
+    "name": "모모이",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "모모이"
+    ]
+  },
+  {
+    "name": "네루(바니걸)",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "네루(바니걸)",
+      "바네루"
+    ]
+  },
+  {
+    "name": "카린(바니걸)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "카린(바니걸)",
+      "바카린"
+    ]
+  },
+  {
+    "name": "아스나(바니걸)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아스나(바니걸)",
+      "바스나"
+    ]
+  },
+  {
+    "name": "아카네(바니걸)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "아카네(바니걸)",
+      "바카네"
+    ]
+  },
+  {
+    "name": "우타하(응원단)",
+    "range": 450,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "우타하(응원단)",
+      "응타하"
+    ]
+  },
+  {
+    "name": "히비키(응원단)",
+    "range": 850,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "히비키(응원단)",
+      "치비키"
+    ]
+  },
+  {
+    "name": "코토리(응원단)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "코토리(응원단)",
+      "치토리",
+      "응토리"
+    ]
+  },
+  {
+    "name": "유우카(체육복)",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "유우카(체육복)",
+      "체유카",
+      "운유카",
+      "체우카",
+      "운우카"
+    ]
+  },
+  {
+    "name": "아리스(메이드)",
+    "range": 850,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아리스(메이드)",
+      "메리스"
+    ]
+  },
+  {
+    "name": "유즈(메이드)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "유즈(메이드)",
+      "메유즈"
+    ]
+  },
+  {
+    "name": "토키(바니걸)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "토키(바니걸)",
+      "바토키"
+    ]
+  },
+  {
+    "name": "모모이(메이드)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "모모이(메이드)",
+      "메모이"
+    ]
+  },
+  {
+    "name": "미도리(메이드)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "미도리(메이드)",
+      "메도리"
+    ]
+  },
+  {
+    "name": "에이미(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "에이미(수영복)",
+      "수이미",
+      "수찌퍼"
+    ]
+  },
+  {
+    "name": "하레(캠핑)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "하레(캠핑)",
+      "캠하레"
+    ]
+  },
+  {
+    "name": "코타마(캠핑)",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "코타마(캠핑)",
+      "캠타마"
+    ]
+  },
+  {
+    "name": "마키(캠핑)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "마키(캠핑)",
+      "캠마키"
+    ]
+  },
+  {
+    "name": "유우카(파자마)",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "유우카(파자마)",
+      "파유카"
+    ]
+  },
+  {
+    "name": "노아(파자마)",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "노아(파자마)",
+      "파노아"
+    ]
+  },
+  {
+    "name": "코유키(파자마)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "코유키(파자마)",
+      "파유키"
+    ]
+  },
+  {
+    "name": "아스나(교복)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "아스나(교복)",
+      "교스나"
+    ]
+  },
+  {
+    "name": "카린(교복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "카린(교복)",
+      "교카린"
+    ]
+  },
+  {
+    "name": "네루(교복)",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "네루(교복)",
+      "교네루"
+    ]
+  },
+  {
+    "name": "아카네(교복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아카네(교복)",
+      "교카네"
+    ]
+  },
+  {
+    "name": "스미레(아르바이트)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "스미레(아르바이트)",
+      "알미레"
+    ]
+  },
+  {
+    "name": "리오(무장)",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "리오(무장)",
+      "임리오",
+      "무리오"
+    ]
+  },
+  {
+    "name": "히마리(무장)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "히마리(무장)",
+      "임마리",
+      "무마리"
+    ]
+  },
+  {
+    "name": "토키(무장)",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "토키(무장)",
+      "임토키",
+      "무토키"
+    ]
+  },
+  {
+    "name": "케이",
+    "range": 850,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "복합장갑",
+    "aliases": [
+      "케이"
+    ]
+  },
+  {
+    "name": "아리스(무장)",
+    "range": 650,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "복합장갑",
+    "aliases": [
+      "아리스(무장)",
+      "임리스",
+      "건리스",
+      "건담아리스",
+      "무리스"
+    ]
+  },
+  {
+    "name": "유즈(무장)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "유즈(무장)",
+      "임유즈",
+      "무유즈"
+    ]
+  },
+  {
+    "name": "에이미(무장)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "에이미(무장)",
+      "무이미",
+      "임이미"
+    ]
+  },
+  {
+    "name": "히후미",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "히후미"
+    ]
+  },
+  {
+    "name": "아즈사",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "아즈사"
+    ]
+  },
+  {
+    "name": "하나코",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "하나코"
+    ]
+  },
+  {
+    "name": "코하루",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "코하루"
+    ]
+  },
+  {
+    "name": "스즈미",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "스즈미",
+      "섬광탄"
+    ]
+  },
+  {
+    "name": "레이사",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "레이사"
+    ]
+  },
+  {
+    "name": "시미코",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "시미코"
+    ]
+  },
+  {
+    "name": "우이",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "우이"
+    ]
+  },
+  {
+    "name": "아이리",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아이리"
+    ]
+  },
+  {
+    "name": "요시미",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "요시미"
+    ]
+  },
+  {
+    "name": "나츠",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "나츠"
+    ]
+  },
+  {
+    "name": "카즈사",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "카즈사"
+    ]
+  },
+  {
+    "name": "마시로",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "마시로"
+    ]
+  },
+  {
+    "name": "미네",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "미네"
+    ]
+  },
+  {
+    "name": "세리나",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "세리나"
+    ]
+  },
+  {
+    "name": "하나에",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "하나에"
+    ]
+  },
+  {
+    "name": "마리",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "마리"
+    ]
+  },
+  {
+    "name": "이치카",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "이치카"
+    ]
+  },
+  {
+    "name": "하스미",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "하스미"
+    ]
+  },
+  {
+    "name": "츠루기",
+    "range": 450,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "츠루기"
+    ]
+  },
+  {
+    "name": "마시로(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "마시로(수영복)",
+      "수시로"
+    ]
+  },
+  {
+    "name": "아즈사(수영복)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아즈사(수영복)",
+      "수즈사"
+    ]
+  },
+  {
+    "name": "사쿠라코",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "사쿠라코"
+    ]
+  },
+  {
+    "name": "히나타",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "히나타"
+    ]
+  },
+  {
+    "name": "마리(체육복)",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "마리(체육복)",
+      "운마리",
+      "체마리"
+    ]
+  },
+  {
+    "name": "하스미(체육복)",
+    "range": 850,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "하스미(체육복)",
+      "운스미",
+      "체스미"
+    ]
+  },
+  {
+    "name": "츠루기(수영복)",
+    "range": 450,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "츠루기(수영복)",
+      "수루기"
+    ]
+  },
+  {
+    "name": "히후미(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "히후미(수영복)",
+      "수후미"
+    ]
+  },
+  {
+    "name": "나기사",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "나기사"
+    ]
+  },
+  {
+    "name": "미카",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "미카",
+      "고릴라"
+    ]
+  },
+  {
+    "name": "하나에(크리스마스)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "하나에(크리스마스)",
+      "클나에"
+    ]
+  },
+  {
+    "name": "세리나(크리스마스)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "세리나(크리스마스)",
+      "클리나"
+    ]
+  },
+  {
+    "name": "히나타(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "히나타(수영복)",
+      "수나타"
+    ]
+  },
+  {
+    "name": "우이(수영복)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "우이(수영복)",
+      "수우이"
+    ]
+  },
+  {
+    "name": "코하루(수영복)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "코하루(수영복)",
+      "수하루"
+    ]
+  },
+  {
+    "name": "세이아",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "세이아"
+    ]
+  },
+  {
+    "name": "요시미(밴드)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "요시미(밴드)",
+      "밴시미"
+    ]
+  },
+  {
+    "name": "카즈사(밴드)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "카즈사(밴드)",
+      "밴즈사"
+    ]
+  },
+  {
+    "name": "아이리(밴드)",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "아이리(밴드)",
+      "밴이리"
+    ]
+  },
+  {
+    "name": "하나코(수영복)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "하나코(수영복)",
+      "수나코"
+    ]
+  },
+  {
+    "name": "미네(아이돌)",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "미네(아이돌)",
+      "돌미네",
+      "아미네"
+    ]
+  },
+  {
+    "name": "사쿠라코(아이돌)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "사쿠라코(아이돌)",
+      "아쿠라코",
+      "돌쿠라코"
+    ]
+  },
+  {
+    "name": "마리(아이돌)",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "마리(아이돌)",
+      "아마리",
+      "돌마리"
+    ]
+  },
+  {
+    "name": "나츠(밴드)",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "나츠(밴드)",
+      "밴나츠"
+    ]
+  },
+  {
+    "name": "나기사(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "진동",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "나기사(수영복)",
+      "수기사"
+    ]
+  },
+  {
+    "name": "세이아(수영복)",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "세이아(수영복)",
+      "수이아"
+    ]
+  },
+  {
+    "name": "하스미(수영복)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "하스미(수영복)",
+      "수스미"
+    ]
+  },
+  {
+    "name": "이치카(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "이치카(수영복)",
+      "수치카"
+    ]
+  },
+  {
+    "name": "라브",
+    "range": 450,
+    "cover": false,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "라브"
+    ]
+  },
+  {
+    "name": "레이사(매지컬)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "레이사(매지컬)",
+      "매이사"
+    ]
+  },
+  {
+    "name": "스즈미(매지컬)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "스즈미(매지컬)",
+      "매즈미"
+    ]
+  },
+  {
+    "name": "미카(수영복)",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "미카(수영복)",
+      "수미카",
+      "수릴라"
+    ]
+  },
+  {
+    "name": "치세",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "치세"
+    ]
+  },
+  {
+    "name": "우미카",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "우미카"
+    ]
+  },
+  {
+    "name": "피나",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "피나"
+    ]
+  },
+  {
+    "name": "시즈코",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "시즈코"
+    ]
+  },
+  {
+    "name": "미모리",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "미모리"
+    ]
+  },
+  {
+    "name": "츠바키",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "츠바키"
+    ]
+  },
+  {
+    "name": "니야",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "니야"
+    ]
+  },
+  {
+    "name": "카호",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "카호"
+    ]
+  },
+  {
+    "name": "츠쿠요",
+    "range": 350,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "츠쿠요"
+    ]
+  },
+  {
+    "name": "미치루",
+    "range": 450,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "미치루"
+    ]
+  },
+  {
+    "name": "이즈나",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "이즈나"
+    ]
+  },
+  {
+    "name": "카에데",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "카에데"
+    ]
+  },
+  {
+    "name": "치세(수영복)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "치세(수영복)",
+      "수치세"
+    ]
+  },
+  {
+    "name": "시즈코(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "시즈코(수영복)",
+      "수즈코"
+    ]
+  },
+  {
+    "name": "와카모(수영복)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "와카모(수영복)",
+      "수카모"
+    ]
+  },
+  {
+    "name": "와카모",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "와카모"
+    ]
+  },
+  {
+    "name": "유카리",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "유카리"
+    ]
+  },
+  {
+    "name": "키교",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "키교"
+    ]
+  },
+  {
+    "name": "미모리(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "미모리(수영복)",
+      "수모리"
+    ]
+  },
+  {
+    "name": "이즈나(수영복)",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "이즈나(수영복)",
+      "수즈나"
+    ]
+  },
+  {
+    "name": "렌게",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "렌게"
+    ]
+  },
+  {
+    "name": "유카리(수영복)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "유카리(수영복)",
+      "수카리",
+      "수빵떡"
+    ]
+  },
+  {
+    "name": "피나(가이드)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "피나(가이드)",
+      "가피나"
+    ]
+  },
+  {
+    "name": "츠바키(가이드)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "츠바키(가이드)",
+      "가바키"
+    ]
+  },
+  {
+    "name": "나구사",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "나구사"
+    ]
+  },
+  {
+    "name": "미치루(드레스)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "미치루(드레스)",
+      "드치루"
+    ]
+  },
+  {
+    "name": "츠쿠요(드레스)",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "츠쿠요(드레스)",
+      "드쿠요"
+    ]
+  },
+  {
+    "name": "렌게(수영복)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "렌게(수영복)",
+      "수렌게"
+    ]
+  },
+  {
+    "name": "키쿄(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "키쿄(수영복)",
+      "수키쿄"
+    ]
+  },
+  {
+    "name": "슌(어린이)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "슌(어린이)",
+      "슈에링",
+      "농슌"
+    ]
+  },
+  {
+    "name": "코코나",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "코코나"
+    ]
+  },
+  {
+    "name": "슌",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "슌"
+    ]
+  },
+  {
+    "name": "사야",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "사야"
+    ]
+  },
+  {
+    "name": "미나",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "미나"
+    ]
+  },
+  {
+    "name": "레이죠",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "레이죠"
+    ]
+  },
+  {
+    "name": "루미",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "루미"
+    ]
+  },
+  {
+    "name": "사야(사복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "사야(사복)",
+      "사사야"
+    ]
+  },
+  {
+    "name": "마리나",
+    "range": 350,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "마리나",
+      "러시아루"
+    ]
+  },
+  {
+    "name": "토모에",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "토모에"
+    ]
+  },
+  {
+    "name": "체리노",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "체리노"
+    ]
+  },
+  {
+    "name": "키사키",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "진동",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "키사키"
+    ]
+  },
+  {
+    "name": "노도카(온천)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "노도카(온천)",
+      "온도카"
+    ]
+  },
+  {
+    "name": "체리노(온천)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "체리노(온천)",
+      "온리노"
+    ]
+  },
+  {
+    "name": "시구레",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "시구레"
+    ]
+  },
+  {
+    "name": "노도카",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "노도카"
+    ]
+  },
+  {
+    "name": "모미지",
+    "range": 850,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "중장갑",
+    "aliases": [
+      "모미지"
+    ]
+  },
+  {
+    "name": "메루",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "메루"
+    ]
+  },
+  {
+    "name": "미노리",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "미노리"
+    ]
+  },
+  {
+    "name": "시구레(온천)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "시구레(온천)",
+      "온구레"
+    ]
+  },
+  {
+    "name": "타카네",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "타카네"
+    ]
+  },
+  {
+    "name": "야쿠모",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "야쿠모"
+    ]
+  },
+  {
+    "name": "토모에(치파오)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "토모에(치파오)",
+      "치모에"
+    ]
+  },
+  {
+    "name": "마리나(치파오)",
+    "range": 350,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "마리나(치파오)",
+      "치리나"
+    ]
+  },
+  {
+    "name": "코노카",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "경장갑",
+    "aliases": [
+      "코노카"
+    ]
+  },
+  {
+    "name": "칸나",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "칸나"
+    ]
+  },
+  {
+    "name": "후부키",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "후부키"
+    ]
+  },
+  {
+    "name": "키리노",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "키리노"
+    ]
+  },
+  {
+    "name": "미야코",
+    "range": 350,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "미야코"
+    ]
+  },
+  {
+    "name": "키리노(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "키리노(수영복)",
+      "수리노"
+    ]
+  },
+  {
+    "name": "후부키(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "후부키(수영복)",
+      "수부키"
+    ]
+  },
+  {
+    "name": "칸나(수영복)",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "칸나(수영복)",
+      "수칸나"
+    ]
+  },
+  {
+    "name": "미유(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "미유(수영복)",
+      "수미유"
+    ]
+  },
+  {
+    "name": "모에",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "모에"
+    ]
+  },
+  {
+    "name": "미유",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "미유"
+    ]
+  },
+  {
+    "name": "사키",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "사키"
+    ]
+  },
+  {
+    "name": "니코",
+    "range": 450,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "니코"
+    ]
+  },
+  {
+    "name": "모에(수영복)",
+    "range": 550,
+    "cover": false,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "모에(수영복)",
+      "수모에"
+    ]
+  },
+  {
+    "name": "사키(수영복)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "사키(수영복)",
+      "수사키"
+    ]
+  },
+  {
+    "name": "미야코(수영복)",
+    "range": 350,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "미야코(수영복)",
+      "수야코"
+    ]
+  },
+  {
+    "name": "히요리",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "히요리"
+    ]
+  },
+  {
+    "name": "미사키",
+    "range": 850,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "미사키"
+    ]
+  },
+  {
+    "name": "오토키",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "오토키"
+    ]
+  },
+  {
+    "name": "쿠루미",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "쿠루미"
+    ]
+  },
+  {
+    "name": "히요리(수영복)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "히요리(수영복)",
+      "수요리"
+    ]
+  },
+  {
+    "name": "사오리(수영복)",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "사오리(수영복)",
+      "싸오리"
+    ]
+  },
+  {
+    "name": "사오리",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "사오리"
+    ]
+  },
+  {
+    "name": "아츠코",
+    "range": 350,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "아츠코"
+    ]
+  },
+  {
+    "name": "스바루",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "스바루"
+    ]
+  },
+  {
+    "name": "사오리(드레스)",
+    "range": 650,
+    "cover": false,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "사오리(드레스)",
+      "드오리"
+    ]
+  },
+  {
+    "name": "미사키(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "미사키(수영복)",
+      "익사키"
+    ]
+  },
+  {
+    "name": "아츠코(수영복)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "아츠코(수영복)",
+      "수츠코"
+    ]
+  },
+  {
+    "name": "에리",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "에리"
+    ]
+  },
+  {
+    "name": "아오바",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "아오바"
+    ]
+  },
+  {
+    "name": "노조미",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "노조미"
+    ]
+  },
+  {
+    "name": "히카리",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "히카리"
+    ]
+  },
+  {
+    "name": "후유",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "후유"
+    ]
+  },
+  {
+    "name": "미요",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "미요"
+    ]
+  },
+  {
+    "name": "레나",
+    "range": 550,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "레나"
+    ]
+  },
+  {
+    "name": "카노에",
+    "range": 350,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "카노에"
+    ]
+  },
+  {
+    "name": "리츠",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "리츠"
+    ]
+  },
+  {
+    "name": "사텐 루이코",
+    "range": 1500,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "사텐 루이코"
+    ]
+  },
+  {
+    "name": "쇼쿠호 미사키",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "쇼쿠호 미사키"
+    ]
+  },
+  {
+    "name": "미사카 미코토",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "미사카 미코토"
+    ]
+  },
+  {
+    "name": "미쿠",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "미쿠"
+    ]
+  }
+]
