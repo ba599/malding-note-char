@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>블루 아카이브 캐릭터 편집기</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; padding: 20px; }
+
+    .toolbar {
+      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+      padding: 12px 16px; background: #fff; border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 16px;
+    }
+    .toolbar button, .toolbar select {
+      padding: 6px 12px; border: 1px solid #ddd; border-radius: 4px;
+      background: #fff; cursor: pointer; font-size: 14px;
+    }
+    .toolbar button:hover { background: #f0f0f0; }
+    .status { margin-left: auto; font-size: 13px; color: #888; }
+
+    #character-list { display: flex; flex-direction: column; gap: 8px; }
+
+    .character-row {
+      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+      padding: 10px 14px; background: #fff; border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .character-row input[type="text"] {
+      padding: 5px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;
+    }
+    .character-row input[name="name"] { width: 160px; }
+    .character-row input[name="aliases"] { width: 200px; }
+    .character-row select {
+      padding: 5px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;
+    }
+    .character-row label { display: flex; align-items: center; gap: 4px; font-size: 14px; }
+    .btn-delete {
+      padding: 4px 10px; border: 1px solid #e55; border-radius: 4px;
+      background: #fff; color: #e55; cursor: pointer; font-size: 13px;
+    }
+    .btn-delete:hover { background: #fee; }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <button id="btn-add">+ 추가</button>
+    <select id="filter-role">
+      <option value="all">전체</option>
+      <option value="striker">스트라이커</option>
+      <option value="special">스페셜</option>
+    </select>
+    <button id="btn-sort">이름순 정렬</button>
+    <button id="btn-download" style="display:none;">JSON 다운로드</button>
+    <span class="status" id="status">불러오는 중...</span>
+  </div>
+  <div id="character-list"></div>
+  <script>
+    const RANGES = [350, 450, 550, 650, 750, 850, 1000, 1500];
+    const ROLES = ['striker', 'special'];
+    const ROLE_LABELS = { striker: '스트라이커', special: '스페셜' };
+    const ATTACK_TYPES = ['폭발', '관통', '분해', '신비', '진동'];
+    const DEFENSE_TYPES = ['경장갑', '중장갑', '복합장갑', '특수장갑', '탄력장갑'];
+    const LS_KEY = 'ba-characters';
+
+    let characters = [];
+    let serverMode = false;
+
+    const listEl = document.getElementById('character-list');
+    const filterEl = document.getElementById('filter-role');
+    const statusEl = document.getElementById('status');
+    const downloadBtn = document.getElementById('btn-download');
+
+    function createCharacter(role) {
+      return {
+        name: '',
+        range: 650,
+        cover: false,
+        role: role || 'striker',
+        attackType: '폭발',
+        defenseType: '경장갑',
+        aliases: []
+      };
+    }
+
+    function makeSelect(name, options, selected, labelFn) {
+      const sel = document.createElement('select');
+      sel.name = name;
+      options.forEach(opt => {
+        const o = document.createElement('option');
+        o.value = opt;
+        o.textContent = labelFn ? labelFn(opt) : opt;
+        if (opt === selected) o.selected = true;
+        sel.appendChild(o);
+      });
+      return sel;
+    }
+
+    let saveTimer = null;
+
+    function scheduleSave() {
+      clearTimeout(saveTimer);
+      statusEl.textContent = '변경됨...';
+      saveTimer = setTimeout(save, 1000);
+    }
+
+    async function save() {
+      localStorage.setItem(LS_KEY, JSON.stringify(characters));
+
+      if (serverMode) {
+        statusEl.textContent = '저장 중...';
+        try {
+          const res = await fetch('/api/characters', {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(characters, null, 2)
+          });
+          if (!res.ok) throw new Error(res.statusText);
+          statusEl.textContent = '저장됨';
+        } catch (e) {
+          statusEl.textContent = '저장 실패: ' + e.message;
+        }
+      } else {
+        statusEl.textContent = '로컬 저장됨 (오프라인)';
+      }
+    }
+
+    function render() {
+      listEl.innerHTML = '';
+      const filter = filterEl.value;
+
+      characters.forEach((char, idx) => {
+        if (filter !== 'all' && char.role !== filter) return;
+
+        const row = document.createElement('div');
+        row.className = 'character-row';
+
+        const nameInput = document.createElement('input');
+        nameInput.type = 'text'; nameInput.name = 'name';
+        nameInput.placeholder = '이름'; nameInput.value = char.name;
+        nameInput.oninput = () => { char.name = nameInput.value; scheduleSave(); };
+
+        const rangeSelect = makeSelect('range', RANGES, char.range);
+        rangeSelect.onchange = () => { char.range = Number(rangeSelect.value); scheduleSave(); };
+
+        const coverLabel = document.createElement('label');
+        const coverInput = document.createElement('input');
+        coverInput.type = 'checkbox'; coverInput.checked = char.cover;
+        coverInput.onchange = () => { char.cover = coverInput.checked; scheduleSave(); };
+        coverLabel.appendChild(coverInput);
+        coverLabel.appendChild(document.createTextNode('엄폐'));
+
+        const roleSelect = makeSelect('role', ROLES, char.role, r => ROLE_LABELS[r]);
+        roleSelect.onchange = () => { char.role = roleSelect.value; scheduleSave(); };
+
+        const atkSelect = makeSelect('attackType', ATTACK_TYPES, char.attackType);
+        atkSelect.onchange = () => { char.attackType = atkSelect.value; scheduleSave(); };
+
+        const defSelect = makeSelect('defenseType', DEFENSE_TYPES, char.defenseType);
+        defSelect.onchange = () => { char.defenseType = defSelect.value; scheduleSave(); };
+
+        const aliasInput = document.createElement('input');
+        aliasInput.type = 'text'; aliasInput.name = 'aliases';
+        aliasInput.placeholder = '별명 (콤마 구분)';
+        aliasInput.value = char.aliases.join(', ');
+        aliasInput.oninput = () => {
+          char.aliases = aliasInput.value.split(',').map(s => s.trim()).filter(Boolean);
+          scheduleSave();
+        };
+
+        const delBtn = document.createElement('button');
+        delBtn.className = 'btn-delete'; delBtn.textContent = '삭제';
+        delBtn.onclick = () => { characters.splice(idx, 1); render(); scheduleSave(); };
+
+        row.append(nameInput, rangeSelect, coverLabel, roleSelect, atkSelect, defSelect, aliasInput, delBtn);
+        listEl.appendChild(row);
+      });
+    }
+
+    document.getElementById('btn-add').onclick = () => {
+      const filter = filterEl.value;
+      const role = filter !== 'all' ? filter : 'striker';
+      characters.push(createCharacter(role));
+      render();
+      scheduleSave();
+    };
+
+    filterEl.onchange = () => render();
+
+    document.getElementById('btn-sort').onclick = () => {
+      characters.sort((a, b) => a.name.localeCompare(b.name, 'ko'));
+      render();
+      scheduleSave();
+    };
+
+    downloadBtn.onclick = () => {
+      const blob = new Blob([JSON.stringify(characters, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'characters.json';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    };
+
+    async function init() {
+      try {
+        const res = await fetch('/api/health');
+        if (res.ok) serverMode = true;
+      } catch {}
+
+      const localData = localStorage.getItem(LS_KEY);
+      const localChars = localData ? JSON.parse(localData) : null;
+
+      if (serverMode) {
+        downloadBtn.style.display = 'none';
+        try {
+          const res = await fetch('/api/characters');
+          characters = await res.json();
+        } catch {
+          characters = [];
+        }
+
+        if (localChars && localChars.length > 0 && JSON.stringify(localChars) !== JSON.stringify(characters)) {
+          if (confirm('로컬에 저장된 데이터가 있습니다. 불러올까요?')) {
+            characters = localChars;
+            save();
+          } else {
+            localStorage.removeItem(LS_KEY);
+          }
+        }
+        statusEl.textContent = '서버 연결됨';
+      } else {
+        downloadBtn.style.display = '';
+        characters = localChars || [];
+        statusEl.textContent = '오프라인 모드';
+      }
+
+      render();
+    }
+
+    init();
+  </script>
+</body>
+</html>
