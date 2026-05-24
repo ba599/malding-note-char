@@ -1,0 +1,23 @@
+[
+  {
+    "name": "텐도 아리스",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "aliases": ["아리스", "앨리스", "텐도아리스"]
+  },
+  {
+    "name": "아마미 아루",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "aliases": ["아루", "아루찡", "아마미아루"]
+  },
+  {
+    "name": "소라사키 히나",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "aliases": ["히나", "소라사키히나", "게헨나히나"]
+  }
+]
