@@ -1,0 +1,9 @@
+{
+  "games": [
+    {
+      "id": "blue-archive",
+      "name": "블루 아카이브",
+      "path": "/blue-archive/characters.json"
+    }
+  ]
+}
