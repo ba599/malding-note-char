@@ -3043,5 +3043,29 @@
     "aliases": [
       "미쿠"
     ]
+  },
+  {
+    "name": "무츠키(드레스)",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "무츠키(드레스)",
+      "드츠키"
+    ]
+  },
+  {
+    "name": "하루카(드레스)",
+    "range": 450,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "경장갑",
+    "aliases": [
+      "하루카(드레스)",
+      "드루카"
+    ]
   }
 ]
