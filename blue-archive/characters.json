@@ -3069,5 +3069,17 @@
       "하루카(드레스)",
       "드루카"
     ]
+  },
+  {
+    "name": "나구사(수영복)",
+    "range": 750,
+    "cover": false,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "중장갑",
+    "aliases": [
+      "나구사(수영복)",
+      "수구사"
+    ]
   }
 ]
