@@ -795,7 +795,8 @@
     "attackType": "관통",
     "defenseType": "중장갑",
     "aliases": [
-      "치히로"
+      "치히로",
+      "쀼장"
     ]
   },
   {
@@ -2922,7 +2923,8 @@
     "attackType": "진동",
     "defenseType": "경장갑",
     "aliases": [
-      "아오바"
+      "아오바",
+      "아바오"
     ]
   },
   {
@@ -3080,6 +3082,31 @@
     "aliases": [
       "나구사(수영복)",
       "수구사"
+    ]
+  },
+  {
+    "name": "키사키(수영복)",
+    "range": 450,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "키사키(수영복)",
+      "수키키"
+    ]
+  },
+  {
+    "name": "슌(수영복)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "슌(수영복)",
+      "수슌",
+      "수에링"
     ]
   }
 ]
