@@ -3086,7 +3086,7 @@
   },
   {
     "name": "키사키(수영복)",
-    "range": 450,
+    "range": 550,
     "cover": true,
     "role": "striker",
     "attackType": "진동",
@@ -3105,7 +3105,18 @@
     "defenseType": "경장갑",
     "aliases": [
       "슌(수영복)",
-      "수슌",
+      "수슌"
+    ]
+  },
+  {
+    "name": "슈에링(수영복)",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "슈에링(수영복)",
       "수에링"
     ]
   }
