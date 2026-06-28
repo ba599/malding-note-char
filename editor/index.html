@@ -32,7 +32,9 @@
       padding: 5px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;
     }
     .character-row input[name="name"] { width: 160px; }
+    .character-row input[name="nameJp"] { width: 160px; }
     .character-row input[name="aliases"] { width: 200px; }
+    .character-row input[name="aliasesJp"] { width: 200px; }
     .character-row select {
       padding: 5px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;
     }
@@ -79,12 +81,14 @@
       const r = role || 'striker';
       return {
         name: '',
+        nameJp: '',
         range: r === 'special' ? 1000 : 650,
         cover: false,
         role: r,
         attackType: '폭발',
         defenseType: '경장갑',
-        aliases: []
+        aliases: [],
+        aliasesJp: []
       };
     }
 
@@ -111,9 +115,15 @@
 
     function charsForSave() {
       return characters.map(c => {
-        if (!c.name) return c;
-        const aliases = c.aliases.includes(c.name) ? c.aliases : [c.name, ...c.aliases];
-        return { ...c, aliases };
+        const out = { ...c };
+        if (c.name) {
+          out.aliases = c.aliases.includes(c.name) ? c.aliases : [c.name, ...c.aliases];
+        }
+        if (c.nameJp) {
+          const aliasesJp = c.aliasesJp || [];
+          out.aliasesJp = aliasesJp.includes(c.nameJp) ? aliasesJp : [c.nameJp, ...aliasesJp];
+        }
+        return out;
       });
     }
 
@@ -165,6 +175,14 @@
           scheduleSave();
         };
 
+        const nameJpInput = document.createElement('input');
+        nameJpInput.type = 'text'; nameJpInput.name = 'nameJp';
+        nameJpInput.placeholder = '일본어 이름'; nameJpInput.value = char.nameJp || '';
+        nameJpInput.oninput = () => {
+          char.nameJp = nameJpInput.value;
+          scheduleSave();
+        };
+
         const ranges = char.role === 'special' ? SPECIAL_RANGES : STRIKER_RANGES;
         if (!ranges.includes(char.range)) char.range = ranges[0];
         const rangeSelect = makeSelect('range', ranges, char.range);
@@ -202,6 +220,15 @@
           scheduleSave();
         };
 
+        const aliasJpInput = document.createElement('input');
+        aliasJpInput.type = 'text'; aliasJpInput.name = 'aliasesJp';
+        aliasJpInput.placeholder = '일본어 별명 (콤마 구분)';
+        aliasJpInput.value = (char.aliasesJp || []).join(', ');
+        aliasJpInput.oninput = () => {
+          char.aliasesJp = aliasJpInput.value.split(',').map(s => s.trim()).filter(Boolean);
+          scheduleSave();
+        };
+
         const delBtn = document.createElement('button');
         delBtn.className = 'btn-delete'; delBtn.textContent = '삭제';
         delBtn.onclick = () => { characters.splice(idx, 1); render(); scheduleSave(); };
@@ -214,7 +241,7 @@
         }
         row.addEventListener('focusin', activateRow);
         row.addEventListener('click', activateRow);
-        row.append(nameInput, roleSelect, atkSelect, defSelect, rangeSelect, coverLabel, aliasInput, delBtn);
+        row.append(nameInput, nameJpInput, roleSelect, atkSelect, defSelect, rangeSelect, coverLabel, aliasInput, aliasJpInput, delBtn);
         listEl.appendChild(row);
       });
     }
@@ -239,7 +266,9 @@
     function stripNameFromAliases(chars) {
       return chars.map(c => ({
         ...c,
-        aliases: c.aliases.filter(a => a !== c.name)
+        nameJp: c.nameJp || '',
+        aliases: (c.aliases || []).filter(a => a !== c.name),
+        aliasesJp: (c.aliasesJp || []).filter(a => a !== c.nameJp)
       }));
     }
 

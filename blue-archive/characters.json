@@ -1,6 +1,7 @@
 [
   {
     "name": "아카리(새해)",
+    "nameJp": "アカリ（正月）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -10,10 +11,14 @@
       "아카리(새해)",
       "떡카리",
       "정카리"
+    ],
+    "aliasesJp": [
+      "アカリ（正月）"
     ]
   },
   {
     "name": "노노미",
+    "nameJp": "ノノミ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -21,10 +26,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "노노미"
+    ],
+    "aliasesJp": [
+      "ノノミ"
     ]
   },
   {
     "name": "노노미(수영복)",
+    "nameJp": "ノノミ（水着）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -33,10 +42,14 @@
     "aliases": [
       "노노미(수영복)",
       "수노미"
+    ],
+    "aliasesJp": [
+      "ノノミ（水着）"
     ]
   },
   {
     "name": "마코토",
+    "nameJp": "マコト",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -45,10 +58,14 @@
     "aliases": [
       "마코토",
       "대코토"
+    ],
+    "aliasesJp": [
+      "マコト"
     ]
   },
   {
     "name": "무츠키",
+    "nameJp": "ムツキ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -56,10 +73,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "무츠키"
+    ],
+    "aliasesJp": [
+      "ムツキ"
     ]
   },
   {
     "name": "무츠키(새해)",
+    "nameJp": "ムツキ（正月）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -69,10 +90,14 @@
       "무츠키(새해)",
       "정츠키",
       "뉴츠키"
+    ],
+    "aliasesJp": [
+      "ムツキ（正月）"
     ]
   },
   {
     "name": "사츠키",
+    "nameJp": "サツキ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -82,10 +107,14 @@
       "사츠키",
       "만마젖",
       "맘마젖"
+    ],
+    "aliasesJp": [
+      "サツキ"
     ]
   },
   {
     "name": "세나",
+    "nameJp": "セナ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -93,10 +122,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "세나"
+    ],
+    "aliasesJp": [
+      "セナ"
     ]
   },
   {
     "name": "세리카",
+    "nameJp": "セリカ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -104,10 +137,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "세리카"
+    ],
+    "aliasesJp": [
+      "セリカ"
     ]
   },
   {
     "name": "세리카(새해)",
+    "nameJp": "セリカ（正月）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -117,10 +154,14 @@
       "세리카(새해)",
       "정리카",
       "뉴리카"
+    ],
+    "aliasesJp": [
+      "セリカ（正月）"
     ]
   },
   {
     "name": "세리카(수영복)",
+    "nameJp": "セリカ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -129,10 +170,14 @@
     "aliases": [
       "세리카(수영복)",
       "수리카"
+    ],
+    "aliasesJp": [
+      "セリカ（水着）"
     ]
   },
   {
     "name": "시로코",
+    "nameJp": "シロコ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -141,10 +186,14 @@
     "aliases": [
       "시로코",
       "흰둥이"
+    ],
+    "aliasesJp": [
+      "シロコ"
     ]
   },
   {
     "name": "시로코(라이딩)",
+    "nameJp": "シロコ（ライディング）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -153,10 +202,14 @@
     "aliases": [
       "시로코(라이딩)",
       "라로코"
+    ],
+    "aliasesJp": [
+      "シロコ（ライディング）"
     ]
   },
   {
     "name": "시로코(수영복)",
+    "nameJp": "シロコ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -165,10 +218,14 @@
     "aliases": [
       "시로코(수영복)",
       "수로코"
+    ],
+    "aliasesJp": [
+      "シロコ（水着）"
     ]
   },
   {
     "name": "시로코*테러",
+    "nameJp": "シロコ＊テラー",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -177,10 +234,14 @@
     "aliases": [
       "시로코*테러",
       "쿠로코"
+    ],
+    "aliasesJp": [
+      "シロコ＊テラー"
     ]
   },
   {
     "name": "아루",
+    "nameJp": "アル",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -188,10 +249,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "아루"
+    ],
+    "aliasesJp": [
+      "アル"
     ]
   },
   {
     "name": "아루(새해)",
+    "nameJp": "アル（正月）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -201,10 +266,14 @@
       "아루(새해)",
       "정아루",
       "뉴아루"
+    ],
+    "aliasesJp": [
+      "アル（正月）"
     ]
   },
   {
     "name": "아야네",
+    "nameJp": "アヤネ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -213,10 +282,14 @@
     "aliases": [
       "아야네",
       "이동진"
+    ],
+    "aliasesJp": [
+      "アヤネ"
     ]
   },
   {
     "name": "아야네(수영복)",
+    "nameJp": "アヤネ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -226,10 +299,14 @@
       "아야네(수영복)",
       "수야네",
       "수동진"
+    ],
+    "aliasesJp": [
+      "アヤネ（水着）"
     ]
   },
   {
     "name": "아카리",
+    "nameJp": "アカリ",
     "range": 650,
     "cover": false,
     "role": "striker",
@@ -237,10 +314,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "아카리"
+    ],
+    "aliasesJp": [
+      "アカリ"
     ]
   },
   {
     "name": "아코",
+    "nameJp": "アコ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -248,10 +329,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "아코"
+    ],
+    "aliasesJp": [
+      "アコ"
     ]
   },
   {
     "name": "이로하",
+    "nameJp": "イロハ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -259,10 +344,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "이로하"
+    ],
+    "aliasesJp": [
+      "イロハ"
     ]
   },
   {
     "name": "이부키",
+    "nameJp": "イブキ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -270,10 +359,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "이부키"
+    ],
+    "aliasesJp": [
+      "イブキ"
     ]
   },
   {
     "name": "이오리",
+    "nameJp": "イオリ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -281,10 +374,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "이오리"
+    ],
+    "aliasesJp": [
+      "イオリ"
     ]
   },
   {
     "name": "이오리(수영복)",
+    "nameJp": "イオリ（水着）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -293,10 +390,14 @@
     "aliases": [
       "이오리(수영복)",
       "수오리"
+    ],
+    "aliasesJp": [
+      "イオリ（水着）"
     ]
   },
   {
     "name": "이즈미",
+    "nameJp": "イズミ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -308,10 +409,14 @@
       "햄부기",
       "버거",
       "부거"
+    ],
+    "aliasesJp": [
+      "イズミ"
     ]
   },
   {
     "name": "이즈미(수영복)",
+    "nameJp": "イズミ（水着）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -321,10 +426,14 @@
       "이즈미(수영복)",
       "수즈미",
       "수버거"
+    ],
+    "aliasesJp": [
+      "イズミ（水着）"
     ]
   },
   {
     "name": "주리",
+    "nameJp": "ジュリ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -332,10 +441,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "주리"
+    ],
+    "aliasesJp": [
+      "ジュリ"
     ]
   },
   {
     "name": "준코",
+    "nameJp": "ジュンコ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -343,10 +456,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "준코"
+    ],
+    "aliasesJp": [
+      "ジュンコ"
     ]
   },
   {
     "name": "준코(새해)",
+    "nameJp": "ジュンコ（正月）",
     "range": 650,
     "cover": false,
     "role": "striker",
@@ -355,10 +472,14 @@
     "aliases": [
       "준코(새해)",
       "정준코"
+    ],
+    "aliasesJp": [
+      "ジュンコ（正月）"
     ]
   },
   {
     "name": "치나츠",
+    "nameJp": "チナツ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -366,10 +487,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "치나츠"
+    ],
+    "aliasesJp": [
+      "チナツ"
     ]
   },
   {
     "name": "치나츠(온천)",
+    "nameJp": "チナツ（温泉）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -378,10 +503,14 @@
     "aliases": [
       "치나츠(온천)",
       "온나츠"
+    ],
+    "aliasesJp": [
+      "チナツ（温泉）"
     ]
   },
   {
     "name": "치아키",
+    "nameJp": "チアキ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -389,10 +518,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "치아키"
+    ],
+    "aliasesJp": [
+      "チアキ"
     ]
   },
   {
     "name": "카요코",
+    "nameJp": "カヨコ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -402,10 +535,14 @@
       "카요코",
       "캣맘",
       "진순"
+    ],
+    "aliasesJp": [
+      "カヨコ"
     ]
   },
   {
     "name": "카요코(새해)",
+    "nameJp": "カヨコ（正月）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -415,10 +552,14 @@
       "카요코(새해)",
       "정요코",
       "뉴요코"
+    ],
+    "aliasesJp": [
+      "カヨコ（正月）"
     ]
   },
   {
     "name": "하루나",
+    "nameJp": "ハルナ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -426,10 +567,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "하루나"
+    ],
+    "aliasesJp": [
+      "ハルナ"
     ]
   },
   {
     "name": "하루나(새해)",
+    "nameJp": "ハルナ（正月）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -439,10 +584,14 @@
       "하루나(새해)",
       "정루나",
       "뉴루나"
+    ],
+    "aliasesJp": [
+      "ハルナ（正月）"
     ]
   },
   {
     "name": "하루카",
+    "nameJp": "ハルカ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -450,10 +599,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "하루카"
+    ],
+    "aliasesJp": [
+      "ハルカ"
     ]
   },
   {
     "name": "하루카(새해)",
+    "nameJp": "ハルカ（正月）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -464,10 +617,14 @@
       "정루카",
       "뉴루카",
       "새루카"
+    ],
+    "aliasesJp": [
+      "ハルカ（正月）"
     ]
   },
   {
     "name": "호시노",
+    "nameJp": "ホシノ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -475,10 +632,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "호시노"
+    ],
+    "aliasesJp": [
+      "ホシノ"
     ]
   },
   {
     "name": "호시노(무장, 공격)",
+    "nameJp": "ホシノ（臨戦, 攻撃型）",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -488,10 +649,14 @@
       "호시노(무장, 공격)",
       "공시노",
       "임시노(공격)"
+    ],
+    "aliasesJp": [
+      "ホシノ（臨戦, 攻撃型）"
     ]
   },
   {
     "name": "호시노(무장, 방어)",
+    "nameJp": "ホシノ（臨戦, 防御型）",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -501,10 +666,14 @@
       "호시노(무장, 방어)",
       "방시노",
       "임시노(방어)"
+    ],
+    "aliasesJp": [
+      "ホシノ（臨戦, 防御型）"
     ]
   },
   {
     "name": "호시노(수영복)",
+    "nameJp": "ホシノ（水着）",
     "range": 450,
     "cover": false,
     "role": "striker",
@@ -513,10 +682,14 @@
     "aliases": [
       "호시노(수영복)",
       "수시노"
+    ],
+    "aliasesJp": [
+      "ホシノ（水着）"
     ]
   },
   {
     "name": "후우카",
+    "nameJp": "フウカ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -524,10 +697,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "후우카"
+    ],
+    "aliasesJp": [
+      "フウカ"
     ]
   },
   {
     "name": "후우카(새해)",
+    "nameJp": "フウカ（正月）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -539,10 +716,14 @@
       "정우카",
       "뉴후카",
       "뉴우카"
+    ],
+    "aliasesJp": [
+      "フウカ（正月）"
     ]
   },
   {
     "name": "히나",
+    "nameJp": "ヒナ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -551,10 +732,14 @@
     "aliases": [
       "히나",
       "대두"
+    ],
+    "aliasesJp": [
+      "ヒナ"
     ]
   },
   {
     "name": "히나(수영복)",
+    "nameJp": "ヒナ（水着）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -563,10 +748,14 @@
     "aliases": [
       "히나(수영복)",
       "수히나"
+    ],
+    "aliasesJp": [
+      "ヒナ（水着）"
     ]
   },
   {
     "name": "이즈미(새해)",
+    "nameJp": "イズミ（正月）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -575,10 +764,14 @@
     "aliases": [
       "이즈미(새해)",
       "새즈미"
+    ],
+    "aliasesJp": [
+      "イズミ（正月）"
     ]
   },
   {
     "name": "메구",
+    "nameJp": "メグ",
     "range": 450,
     "cover": false,
     "role": "striker",
@@ -587,10 +780,14 @@
     "aliases": [
       "메구",
       "신비아파트"
+    ],
+    "aliasesJp": [
+      "メグ"
     ]
   },
   {
     "name": "카스미",
+    "nameJp": "カスミ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -598,10 +795,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "카스미"
+    ],
+    "aliasesJp": [
+      "カスミ"
     ]
   },
   {
     "name": "하루나(체육복)",
+    "nameJp": "ハルナ（体操服）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -611,10 +812,14 @@
       "하루나(체육복)",
       "운루나",
       "체루나"
+    ],
+    "aliasesJp": [
+      "ハルナ（体操服）"
     ]
   },
   {
     "name": "아코(드레스)",
+    "nameJp": "アコ（ドレス）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -623,10 +828,14 @@
     "aliases": [
       "아코(드레스)",
       "드아코"
+    ],
+    "aliasesJp": [
+      "アコ（ドレス）"
     ]
   },
   {
     "name": "히나(드레스)",
+    "nameJp": "ヒナ（ドレス）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -635,10 +844,14 @@
     "aliases": [
       "히나(드레스)",
       "드히나"
+    ],
+    "aliasesJp": [
+      "ヒナ（ドレス）"
     ]
   },
   {
     "name": "아루(드레스)",
+    "nameJp": "アル（ドレス）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -648,10 +861,14 @@
       "아루(드레스)",
       "드아루",
       "드레루"
+    ],
+    "aliasesJp": [
+      "アル（ドレス）"
     ]
   },
   {
     "name": "카요코(드레스)",
+    "nameJp": "カヨコ（ドレス）",
     "range": 550,
     "cover": false,
     "role": "striker",
@@ -660,10 +877,14 @@
     "aliases": [
       "카요코(드레스)",
       "드요코"
+    ],
+    "aliasesJp": [
+      "カヨコ（ドレス）"
     ]
   },
   {
     "name": "주리(아르바이트)",
+    "nameJp": "ジュリ（アルバイト）",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -672,10 +893,14 @@
     "aliases": [
       "주리(아르바이트)",
       "알주리"
+    ],
+    "aliasesJp": [
+      "ジュリ（アルバイト）"
     ]
   },
   {
     "name": "세나(사복)",
+    "nameJp": "セナ（私服）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -684,10 +909,14 @@
     "aliases": [
       "세나(사복)",
       "사세나"
+    ],
+    "aliasesJp": [
+      "セナ（私服）"
     ]
   },
   {
     "name": "에리카",
+    "nameJp": "エリカ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -695,10 +924,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "에리카"
+    ],
+    "aliasesJp": [
+      "エリカ"
     ]
   },
   {
     "name": "키라라",
+    "nameJp": "キララ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -706,10 +939,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "키라라"
+    ],
+    "aliasesJp": [
+      "キララ"
     ]
   },
   {
     "name": "유우카",
+    "nameJp": "ユウカ",
     "range": 350,
     "cover": true,
     "role": "striker",
@@ -719,10 +956,14 @@
       "유우카",
       "100kg",
       "0.1톤"
+    ],
+    "aliasesJp": [
+      "ユウカ"
     ]
   },
   {
     "name": "노아",
+    "nameJp": "ノア",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -730,10 +971,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "노아"
+    ],
+    "aliasesJp": [
+      "ノア"
     ]
   },
   {
     "name": "코유키",
+    "nameJp": "コユキ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -741,10 +986,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "코유키"
+    ],
+    "aliasesJp": [
+      "コユキ"
     ]
   },
   {
     "name": "리오",
+    "nameJp": "リオ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -752,10 +1001,14 @@
     "defenseType": "탄력장갑",
     "aliases": [
       "리오"
+    ],
+    "aliasesJp": [
+      "リオ"
     ]
   },
   {
     "name": "마키",
+    "nameJp": "マキ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -763,10 +1016,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "마키"
+    ],
+    "aliasesJp": [
+      "マキ"
     ]
   },
   {
     "name": "하레",
+    "nameJp": "ハレ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -774,10 +1031,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "하레"
+    ],
+    "aliasesJp": [
+      "ハレ"
     ]
   },
   {
     "name": "코타마",
+    "nameJp": "コタマ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -785,10 +1046,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "코타마"
+    ],
+    "aliasesJp": [
+      "コタマ"
     ]
   },
   {
     "name": "치히로",
+    "nameJp": "チヒロ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -797,10 +1062,14 @@
     "aliases": [
       "치히로",
       "쀼장"
+    ],
+    "aliasesJp": [
+      "チヒロ"
     ]
   },
   {
     "name": "네루",
+    "nameJp": "ネル",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -808,10 +1077,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "네루"
+    ],
+    "aliasesJp": [
+      "ネル"
     ]
   },
   {
     "name": "카린",
+    "nameJp": "カリン",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -819,10 +1092,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "카린"
+    ],
+    "aliasesJp": [
+      "カリン"
     ]
   },
   {
     "name": "아스나",
+    "nameJp": "アスナ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -830,10 +1107,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "아스나"
+    ],
+    "aliasesJp": [
+      "アスナ"
     ]
   },
   {
     "name": "아카네",
+    "nameJp": "アカネ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -841,10 +1122,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "아카네"
+    ],
+    "aliasesJp": [
+      "アカネ"
     ]
   },
   {
     "name": "토키",
+    "nameJp": "トキ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -852,10 +1137,14 @@
     "defenseType": "탄력장갑",
     "aliases": [
       "토키"
+    ],
+    "aliasesJp": [
+      "トキ"
     ]
   },
   {
     "name": "히비키",
+    "nameJp": "ヒビキ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -863,10 +1152,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "히비키"
+    ],
+    "aliasesJp": [
+      "ヒビキ"
     ]
   },
   {
     "name": "우타하",
+    "nameJp": "ウタハ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -874,10 +1167,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "우타하"
+    ],
+    "aliasesJp": [
+      "ウタハ"
     ]
   },
   {
     "name": "코토리",
+    "nameJp": "コトリ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -885,10 +1182,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "코토리"
+    ],
+    "aliasesJp": [
+      "コトリ"
     ]
   },
   {
     "name": "레이",
+    "nameJp": "レイ",
     "range": 850,
     "cover": true,
     "role": "striker",
@@ -896,10 +1197,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "레이"
+    ],
+    "aliasesJp": [
+      "レイ"
     ]
   },
   {
     "name": "스미레",
+    "nameJp": "スミレ",
     "range": 450,
     "cover": false,
     "role": "striker",
@@ -907,10 +1212,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "스미레"
+    ],
+    "aliasesJp": [
+      "スミレ"
     ]
   },
   {
     "name": "히마리",
+    "nameJp": "ヒマリ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -918,10 +1227,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "히마리"
+    ],
+    "aliasesJp": [
+      "ヒマリ"
     ]
   },
   {
     "name": "에이미",
+    "nameJp": "エイミ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -930,10 +1243,14 @@
     "aliases": [
       "에이미",
       "찌퍼"
+    ],
+    "aliasesJp": [
+      "エイミ"
     ]
   },
   {
     "name": "유즈",
+    "nameJp": "ユズ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -941,10 +1258,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "유즈"
+    ],
+    "aliasesJp": [
+      "ユズ"
     ]
   },
   {
     "name": "아리스",
+    "nameJp": "アリス",
     "range": 850,
     "cover": false,
     "role": "striker",
@@ -952,10 +1273,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "아리스"
+    ],
+    "aliasesJp": [
+      "アリス"
     ]
   },
   {
     "name": "미도리",
+    "nameJp": "ミドリ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -963,10 +1288,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "미도리"
+    ],
+    "aliasesJp": [
+      "ミドリ"
     ]
   },
   {
     "name": "모모이",
+    "nameJp": "モモイ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -974,10 +1303,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "모모이"
+    ],
+    "aliasesJp": [
+      "モモイ"
     ]
   },
   {
     "name": "네루(바니걸)",
+    "nameJp": "ネル（バニーガール）",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -986,10 +1319,14 @@
     "aliases": [
       "네루(바니걸)",
       "바네루"
+    ],
+    "aliasesJp": [
+      "ネル（バニーガール）"
     ]
   },
   {
     "name": "카린(바니걸)",
+    "nameJp": "カリン（バニーガール）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -998,10 +1335,14 @@
     "aliases": [
       "카린(바니걸)",
       "바카린"
+    ],
+    "aliasesJp": [
+      "カリン（バニーガール）"
     ]
   },
   {
     "name": "아스나(바니걸)",
+    "nameJp": "アスナ（バニーガール）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1010,10 +1351,14 @@
     "aliases": [
       "아스나(바니걸)",
       "바스나"
+    ],
+    "aliasesJp": [
+      "アスナ（バニーガール）"
     ]
   },
   {
     "name": "아카네(바니걸)",
+    "nameJp": "アカネ（バニーガール）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1022,10 +1367,14 @@
     "aliases": [
       "아카네(바니걸)",
       "바카네"
+    ],
+    "aliasesJp": [
+      "アカネ（バニーガール）"
     ]
   },
   {
     "name": "우타하(응원단)",
+    "nameJp": "ウタハ（応援団）",
     "range": 450,
     "cover": false,
     "role": "striker",
@@ -1034,10 +1383,14 @@
     "aliases": [
       "우타하(응원단)",
       "응타하"
+    ],
+    "aliasesJp": [
+      "ウタハ（応援団）"
     ]
   },
   {
     "name": "히비키(응원단)",
+    "nameJp": "ヒビキ（応援団）",
     "range": 850,
     "cover": true,
     "role": "striker",
@@ -1045,11 +1398,16 @@
     "defenseType": "경장갑",
     "aliases": [
       "히비키(응원단)",
-      "치비키"
+      "치비키",
+      "응비키"
+    ],
+    "aliasesJp": [
+      "ヒビキ（応援団）"
     ]
   },
   {
     "name": "코토리(응원단)",
+    "nameJp": "コトリ（応援団）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -1059,10 +1417,14 @@
       "코토리(응원단)",
       "치토리",
       "응토리"
+    ],
+    "aliasesJp": [
+      "コトリ（応援団）"
     ]
   },
   {
     "name": "유우카(체육복)",
+    "nameJp": "ユウカ（体操服）",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -1074,10 +1436,14 @@
       "운유카",
       "체우카",
       "운우카"
+    ],
+    "aliasesJp": [
+      "ユウカ（体操服）"
     ]
   },
   {
     "name": "아리스(메이드)",
+    "nameJp": "アリス（メイド）",
     "range": 850,
     "cover": false,
     "role": "striker",
@@ -1086,10 +1452,14 @@
     "aliases": [
       "아리스(메이드)",
       "메리스"
+    ],
+    "aliasesJp": [
+      "アリス（メイド）"
     ]
   },
   {
     "name": "유즈(메이드)",
+    "nameJp": "ユズ（メイド）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1098,10 +1468,14 @@
     "aliases": [
       "유즈(메이드)",
       "메유즈"
+    ],
+    "aliasesJp": [
+      "ユズ（メイド）"
     ]
   },
   {
     "name": "토키(바니걸)",
+    "nameJp": "トキ（バニーガール）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1110,10 +1484,14 @@
     "aliases": [
       "토키(바니걸)",
       "바토키"
+    ],
+    "aliasesJp": [
+      "トキ（バニーガール）"
     ]
   },
   {
     "name": "모모이(메이드)",
+    "nameJp": "モモイ（メイド）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1122,10 +1500,14 @@
     "aliases": [
       "모모이(메이드)",
       "메모이"
+    ],
+    "aliasesJp": [
+      "モモイ（メイド）"
     ]
   },
   {
     "name": "미도리(메이드)",
+    "nameJp": "ミドリ（メイド）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -1134,10 +1516,14 @@
     "aliases": [
       "미도리(메이드)",
       "메도리"
+    ],
+    "aliasesJp": [
+      "ミドリ（メイド）"
     ]
   },
   {
     "name": "에이미(수영복)",
+    "nameJp": "エイミ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1147,10 +1533,14 @@
       "에이미(수영복)",
       "수이미",
       "수찌퍼"
+    ],
+    "aliasesJp": [
+      "エイミ（水着）"
     ]
   },
   {
     "name": "하레(캠핑)",
+    "nameJp": "ハレ（キャンプ）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1159,10 +1549,14 @@
     "aliases": [
       "하레(캠핑)",
       "캠하레"
+    ],
+    "aliasesJp": [
+      "ハレ（キャンプ）"
     ]
   },
   {
     "name": "코타마(캠핑)",
+    "nameJp": "コタマ（キャンプ）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -1171,10 +1565,14 @@
     "aliases": [
       "코타마(캠핑)",
       "캠타마"
+    ],
+    "aliasesJp": [
+      "コタマ（キャンプ）"
     ]
   },
   {
     "name": "마키(캠핑)",
+    "nameJp": "マキ（キャンプ）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1183,10 +1581,14 @@
     "aliases": [
       "마키(캠핑)",
       "캠마키"
+    ],
+    "aliasesJp": [
+      "マキ（キャンプ）"
     ]
   },
   {
     "name": "유우카(파자마)",
+    "nameJp": "ユウカ（パジャマ）",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -1195,10 +1597,14 @@
     "aliases": [
       "유우카(파자마)",
       "파유카"
+    ],
+    "aliasesJp": [
+      "ユウカ（パジャマ）"
     ]
   },
   {
     "name": "노아(파자마)",
+    "nameJp": "ノア（パジャマ）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -1207,10 +1613,14 @@
     "aliases": [
       "노아(파자마)",
       "파노아"
+    ],
+    "aliasesJp": [
+      "ノア（パジャマ）"
     ]
   },
   {
     "name": "코유키(파자마)",
+    "nameJp": "コユキ（パジャマ）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1219,10 +1629,14 @@
     "aliases": [
       "코유키(파자마)",
       "파유키"
+    ],
+    "aliasesJp": [
+      "コユキ（パジャマ）"
     ]
   },
   {
     "name": "아스나(교복)",
+    "nameJp": "アスナ（制服）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1231,10 +1645,14 @@
     "aliases": [
       "아스나(교복)",
       "교스나"
+    ],
+    "aliasesJp": [
+      "アスナ（制服）"
     ]
   },
   {
     "name": "카린(교복)",
+    "nameJp": "カリン（制服）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1243,10 +1661,14 @@
     "aliases": [
       "카린(교복)",
       "교카린"
+    ],
+    "aliasesJp": [
+      "カリン（制服）"
     ]
   },
   {
     "name": "네루(교복)",
+    "nameJp": "ネル（制服）",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -1255,10 +1677,14 @@
     "aliases": [
       "네루(교복)",
       "교네루"
+    ],
+    "aliasesJp": [
+      "ネル（制服）"
     ]
   },
   {
     "name": "아카네(교복)",
+    "nameJp": "アカネ（制服）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1267,10 +1693,14 @@
     "aliases": [
       "아카네(교복)",
       "교카네"
+    ],
+    "aliasesJp": [
+      "アカネ（制服）"
     ]
   },
   {
     "name": "스미레(아르바이트)",
+    "nameJp": "スミレ（アルバイト）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1279,10 +1709,14 @@
     "aliases": [
       "스미레(아르바이트)",
       "알미레"
+    ],
+    "aliasesJp": [
+      "スミレ（アルバイト）"
     ]
   },
   {
     "name": "리오(무장)",
+    "nameJp": "リオ（臨戦）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -1292,10 +1726,14 @@
       "리오(무장)",
       "임리오",
       "무리오"
+    ],
+    "aliasesJp": [
+      "リオ（臨戦）"
     ]
   },
   {
     "name": "히마리(무장)",
+    "nameJp": "ヒマリ（臨戦）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1305,10 +1743,14 @@
       "히마리(무장)",
       "임마리",
       "무마리"
+    ],
+    "aliasesJp": [
+      "ヒマリ（臨戦）"
     ]
   },
   {
     "name": "토키(무장)",
+    "nameJp": "トキ（臨戦）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -1318,10 +1760,14 @@
       "토키(무장)",
       "임토키",
       "무토키"
+    ],
+    "aliasesJp": [
+      "トキ（臨戦）"
     ]
   },
   {
     "name": "케이",
+    "nameJp": "ケイ",
     "range": 850,
     "cover": false,
     "role": "striker",
@@ -1329,10 +1775,14 @@
     "defenseType": "복합장갑",
     "aliases": [
       "케이"
+    ],
+    "aliasesJp": [
+      "ケイ"
     ]
   },
   {
     "name": "아리스(무장)",
+    "nameJp": "アリス（臨戦）",
     "range": 650,
     "cover": false,
     "role": "striker",
@@ -1344,10 +1794,14 @@
       "건리스",
       "건담아리스",
       "무리스"
+    ],
+    "aliasesJp": [
+      "アリス（臨戦）"
     ]
   },
   {
     "name": "유즈(무장)",
+    "nameJp": "ユズ（臨戦）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1357,10 +1811,14 @@
       "유즈(무장)",
       "임유즈",
       "무유즈"
+    ],
+    "aliasesJp": [
+      "ユズ（臨戦）"
     ]
   },
   {
     "name": "에이미(무장)",
+    "nameJp": "エイミ（臨戦）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -1370,10 +1828,14 @@
       "에이미(무장)",
       "무이미",
       "임이미"
+    ],
+    "aliasesJp": [
+      "エイミ（臨戦）"
     ]
   },
   {
     "name": "히후미",
+    "nameJp": "ヒフミ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1381,10 +1843,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "히후미"
+    ],
+    "aliasesJp": [
+      "ヒフミ"
     ]
   },
   {
     "name": "아즈사",
+    "nameJp": "アズサ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1392,10 +1858,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "아즈사"
+    ],
+    "aliasesJp": [
+      "アズサ"
     ]
   },
   {
     "name": "하나코",
+    "nameJp": "ハナコ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1403,10 +1873,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "하나코"
+    ],
+    "aliasesJp": [
+      "ハナコ"
     ]
   },
   {
     "name": "코하루",
+    "nameJp": "コハル",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -1414,10 +1888,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "코하루"
+    ],
+    "aliasesJp": [
+      "コハル"
     ]
   },
   {
     "name": "스즈미",
+    "nameJp": "スズミ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1426,10 +1904,14 @@
     "aliases": [
       "스즈미",
       "섬광탄"
+    ],
+    "aliasesJp": [
+      "スズミ"
     ]
   },
   {
     "name": "레이사",
+    "nameJp": "レイサ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -1437,10 +1919,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "레이사"
+    ],
+    "aliasesJp": [
+      "レイサ"
     ]
   },
   {
     "name": "시미코",
+    "nameJp": "シミコ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1448,10 +1934,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "시미코"
+    ],
+    "aliasesJp": [
+      "シミコ"
     ]
   },
   {
     "name": "우이",
+    "nameJp": "ウイ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -1459,10 +1949,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "우이"
+    ],
+    "aliasesJp": [
+      "ウイ"
     ]
   },
   {
     "name": "아이리",
+    "nameJp": "アイリ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1470,10 +1964,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "아이리"
+    ],
+    "aliasesJp": [
+      "アイリ"
     ]
   },
   {
     "name": "요시미",
+    "nameJp": "ヨシミ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1481,10 +1979,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "요시미"
+    ],
+    "aliasesJp": [
+      "ヨシミ"
     ]
   },
   {
     "name": "나츠",
+    "nameJp": "ナツ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -1492,10 +1994,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "나츠"
+    ],
+    "aliasesJp": [
+      "ナツ"
     ]
   },
   {
     "name": "카즈사",
+    "nameJp": "カズサ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -1503,10 +2009,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "카즈사"
+    ],
+    "aliasesJp": [
+      "カズサ"
     ]
   },
   {
     "name": "마시로",
+    "nameJp": "マシロ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1514,10 +2024,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "마시로"
+    ],
+    "aliasesJp": [
+      "マシロ"
     ]
   },
   {
     "name": "미네",
+    "nameJp": "ミネ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -1525,10 +2039,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "미네"
+    ],
+    "aliasesJp": [
+      "ミネ"
     ]
   },
   {
     "name": "세리나",
+    "nameJp": "セリナ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1536,10 +2054,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "세리나"
+    ],
+    "aliasesJp": [
+      "セリナ"
     ]
   },
   {
     "name": "하나에",
+    "nameJp": "ハナエ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1547,10 +2069,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "하나에"
+    ],
+    "aliasesJp": [
+      "ハナエ"
     ]
   },
   {
     "name": "마리",
+    "nameJp": "マリー",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1558,10 +2084,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "마리"
+    ],
+    "aliasesJp": [
+      "マリー"
     ]
   },
   {
     "name": "이치카",
+    "nameJp": "イチカ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1569,10 +2099,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "이치카"
+    ],
+    "aliasesJp": [
+      "イチカ"
     ]
   },
   {
     "name": "하스미",
+    "nameJp": "ハスミ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -1580,10 +2114,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "하스미"
+    ],
+    "aliasesJp": [
+      "ハスミ"
     ]
   },
   {
     "name": "츠루기",
+    "nameJp": "ツルギ",
     "range": 450,
     "cover": false,
     "role": "striker",
@@ -1591,10 +2129,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "츠루기"
+    ],
+    "aliasesJp": [
+      "ツルギ"
     ]
   },
   {
     "name": "마시로(수영복)",
+    "nameJp": "マシロ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1603,10 +2145,14 @@
     "aliases": [
       "마시로(수영복)",
       "수시로"
+    ],
+    "aliasesJp": [
+      "マシロ（水着）"
     ]
   },
   {
     "name": "아즈사(수영복)",
+    "nameJp": "アズサ（水着）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1615,10 +2161,14 @@
     "aliases": [
       "아즈사(수영복)",
       "수즈사"
+    ],
+    "aliasesJp": [
+      "アズサ（水着）"
     ]
   },
   {
     "name": "사쿠라코",
+    "nameJp": "サクラコ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1626,10 +2176,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "사쿠라코"
+    ],
+    "aliasesJp": [
+      "サクラコ"
     ]
   },
   {
     "name": "히나타",
+    "nameJp": "ヒナタ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1637,10 +2191,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "히나타"
+    ],
+    "aliasesJp": [
+      "ヒナタ"
     ]
   },
   {
     "name": "마리(체육복)",
+    "nameJp": "マリー（体操服）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -1650,10 +2208,14 @@
       "마리(체육복)",
       "운마리",
       "체마리"
+    ],
+    "aliasesJp": [
+      "マリー（体操服）"
     ]
   },
   {
     "name": "하스미(체육복)",
+    "nameJp": "ハスミ（体操服）",
     "range": 850,
     "cover": true,
     "role": "striker",
@@ -1663,10 +2225,14 @@
       "하스미(체육복)",
       "운스미",
       "체스미"
+    ],
+    "aliasesJp": [
+      "ハスミ（体操服）"
     ]
   },
   {
     "name": "츠루기(수영복)",
+    "nameJp": "ツルギ（水着）",
     "range": 450,
     "cover": false,
     "role": "striker",
@@ -1675,10 +2241,14 @@
     "aliases": [
       "츠루기(수영복)",
       "수루기"
+    ],
+    "aliasesJp": [
+      "ツルギ（水着）"
     ]
   },
   {
     "name": "히후미(수영복)",
+    "nameJp": "ヒフミ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1687,10 +2257,14 @@
     "aliases": [
       "히후미(수영복)",
       "수후미"
+    ],
+    "aliasesJp": [
+      "ヒフミ（水着）"
     ]
   },
   {
     "name": "나기사",
+    "nameJp": "ナギサ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1698,10 +2272,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "나기사"
+    ],
+    "aliasesJp": [
+      "ナギサ"
     ]
   },
   {
     "name": "미카",
+    "nameJp": "ミカ",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -1710,10 +2288,14 @@
     "aliases": [
       "미카",
       "고릴라"
+    ],
+    "aliasesJp": [
+      "ミカ"
     ]
   },
   {
     "name": "하나에(크리스마스)",
+    "nameJp": "ハナエ（クリスマス）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1722,10 +2304,14 @@
     "aliases": [
       "하나에(크리스마스)",
       "클나에"
+    ],
+    "aliasesJp": [
+      "ハナエ（クリスマス）"
     ]
   },
   {
     "name": "세리나(크리스마스)",
+    "nameJp": "セリナ（クリスマス）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1734,10 +2320,14 @@
     "aliases": [
       "세리나(크리스마스)",
       "클리나"
+    ],
+    "aliasesJp": [
+      "セリナ（クリスマス）"
     ]
   },
   {
     "name": "히나타(수영복)",
+    "nameJp": "ヒナタ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1746,10 +2336,14 @@
     "aliases": [
       "히나타(수영복)",
       "수나타"
+    ],
+    "aliasesJp": [
+      "ヒナタ（水着）"
     ]
   },
   {
     "name": "우이(수영복)",
+    "nameJp": "ウイ（水着）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -1758,10 +2352,14 @@
     "aliases": [
       "우이(수영복)",
       "수우이"
+    ],
+    "aliasesJp": [
+      "ウイ（水着）"
     ]
   },
   {
     "name": "코하루(수영복)",
+    "nameJp": "コハル（水着）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -1770,10 +2368,14 @@
     "aliases": [
       "코하루(수영복)",
       "수하루"
+    ],
+    "aliasesJp": [
+      "コハル（水着）"
     ]
   },
   {
     "name": "세이아",
+    "nameJp": "セイア",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -1781,10 +2383,14 @@
     "defenseType": "탄력장갑",
     "aliases": [
       "세이아"
+    ],
+    "aliasesJp": [
+      "セイア"
     ]
   },
   {
     "name": "요시미(밴드)",
+    "nameJp": "ヨシミ（バンド）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1793,10 +2399,14 @@
     "aliases": [
       "요시미(밴드)",
       "밴시미"
+    ],
+    "aliasesJp": [
+      "ヨシミ（バンド）"
     ]
   },
   {
     "name": "카즈사(밴드)",
+    "nameJp": "カズサ（バンド）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -1805,10 +2415,14 @@
     "aliases": [
       "카즈사(밴드)",
       "밴즈사"
+    ],
+    "aliasesJp": [
+      "カズサ（バンド）"
     ]
   },
   {
     "name": "아이리(밴드)",
+    "nameJp": "アイリ（バンド）",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -1817,10 +2431,14 @@
     "aliases": [
       "아이리(밴드)",
       "밴이리"
+    ],
+    "aliasesJp": [
+      "アイリ（バンド）"
     ]
   },
   {
     "name": "하나코(수영복)",
+    "nameJp": "ハナコ（水着）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1829,10 +2447,14 @@
     "aliases": [
       "하나코(수영복)",
       "수나코"
+    ],
+    "aliasesJp": [
+      "ハナコ（水着）"
     ]
   },
   {
     "name": "미네(아이돌)",
+    "nameJp": "ミネ（アイドル）",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -1842,10 +2464,14 @@
       "미네(아이돌)",
       "돌미네",
       "아미네"
+    ],
+    "aliasesJp": [
+      "ミネ（アイドル）"
     ]
   },
   {
     "name": "사쿠라코(아이돌)",
+    "nameJp": "サクラコ（アイドル）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1855,10 +2481,14 @@
       "사쿠라코(아이돌)",
       "아쿠라코",
       "돌쿠라코"
+    ],
+    "aliasesJp": [
+      "サクラコ（アイドル）"
     ]
   },
   {
     "name": "마리(아이돌)",
+    "nameJp": "マリー（アイドル）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -1868,10 +2498,14 @@
       "마리(아이돌)",
       "아마리",
       "돌마리"
+    ],
+    "aliasesJp": [
+      "マリー（アイドル）"
     ]
   },
   {
     "name": "나츠(밴드)",
+    "nameJp": "ナツ（バンド）",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -1880,10 +2514,14 @@
     "aliases": [
       "나츠(밴드)",
       "밴나츠"
+    ],
+    "aliasesJp": [
+      "ナツ（バンド）"
     ]
   },
   {
     "name": "나기사(수영복)",
+    "nameJp": "ナギサ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1893,10 +2531,14 @@
       "나기사(수영복)",
       "수기사",
       "수나기"
+    ],
+    "aliasesJp": [
+      "ナギサ（水着）"
     ]
   },
   {
     "name": "세이아(수영복)",
+    "nameJp": "セイア（水着）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -1905,10 +2547,14 @@
     "aliases": [
       "세이아(수영복)",
       "수이아"
+    ],
+    "aliasesJp": [
+      "セイア（水着）"
     ]
   },
   {
     "name": "하스미(수영복)",
+    "nameJp": "ハスミ（水着）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -1917,10 +2563,14 @@
     "aliases": [
       "하스미(수영복)",
       "수스미"
+    ],
+    "aliasesJp": [
+      "ハスミ（水着）"
     ]
   },
   {
     "name": "이치카(수영복)",
+    "nameJp": "イチカ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1929,10 +2579,14 @@
     "aliases": [
       "이치카(수영복)",
       "수치카"
+    ],
+    "aliasesJp": [
+      "イチカ（水着）"
     ]
   },
   {
     "name": "라브",
+    "nameJp": "ラブ",
     "range": 450,
     "cover": false,
     "role": "striker",
@@ -1940,10 +2594,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "라브"
+    ],
+    "aliasesJp": [
+      "ラブ"
     ]
   },
   {
     "name": "레이사(매지컬)",
+    "nameJp": "レイサ（マジカル）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -1952,10 +2610,14 @@
     "aliases": [
       "레이사(매지컬)",
       "매이사"
+    ],
+    "aliasesJp": [
+      "レイサ（マジカル）"
     ]
   },
   {
     "name": "스즈미(매지컬)",
+    "nameJp": "スズミ（マジカル）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1964,10 +2626,14 @@
     "aliases": [
       "스즈미(매지컬)",
       "매즈미"
+    ],
+    "aliasesJp": [
+      "スズミ（マジカル）"
     ]
   },
   {
     "name": "미카(수영복)",
+    "nameJp": "ミカ（水着）",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -1977,10 +2643,14 @@
       "미카(수영복)",
       "수미카",
       "수릴라"
+    ],
+    "aliasesJp": [
+      "ミカ（水着）"
     ]
   },
   {
     "name": "치세",
+    "nameJp": "チセ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1988,10 +2658,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "치세"
+    ],
+    "aliasesJp": [
+      "チセ"
     ]
   },
   {
     "name": "우미카",
+    "nameJp": "ウミカ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -1999,10 +2673,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "우미카"
+    ],
+    "aliasesJp": [
+      "ウミカ"
     ]
   },
   {
     "name": "피나",
+    "nameJp": "フィーナ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -2010,10 +2688,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "피나"
+    ],
+    "aliasesJp": [
+      "フィーナ"
     ]
   },
   {
     "name": "시즈코",
+    "nameJp": "シズコ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2021,10 +2703,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "시즈코"
+    ],
+    "aliasesJp": [
+      "シズコ"
     ]
   },
   {
     "name": "미모리",
+    "nameJp": "ミモリ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -2032,10 +2718,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "미모리"
+    ],
+    "aliasesJp": [
+      "ミモリ"
     ]
   },
   {
     "name": "츠바키",
+    "nameJp": "ツバキ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -2043,10 +2733,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "츠바키"
+    ],
+    "aliasesJp": [
+      "ツバキ"
     ]
   },
   {
     "name": "니야",
+    "nameJp": "ニヤ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2054,10 +2748,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "니야"
+    ],
+    "aliasesJp": [
+      "ニヤ"
     ]
   },
   {
     "name": "카호",
+    "nameJp": "カホ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -2065,10 +2763,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "카호"
+    ],
+    "aliasesJp": [
+      "カホ"
     ]
   },
   {
     "name": "츠쿠요",
+    "nameJp": "ツクヨ",
     "range": 350,
     "cover": true,
     "role": "striker",
@@ -2076,10 +2778,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "츠쿠요"
+    ],
+    "aliasesJp": [
+      "ツクヨ"
     ]
   },
   {
     "name": "미치루",
+    "nameJp": "ミチル",
     "range": 450,
     "cover": false,
     "role": "striker",
@@ -2087,10 +2793,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "미치루"
+    ],
+    "aliasesJp": [
+      "ミチル"
     ]
   },
   {
     "name": "이즈나",
+    "nameJp": "イズナ",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -2098,10 +2808,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "이즈나"
+    ],
+    "aliasesJp": [
+      "イズナ"
     ]
   },
   {
     "name": "카에데",
+    "nameJp": "カエデ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2109,10 +2823,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "카에데"
+    ],
+    "aliasesJp": [
+      "カエデ"
     ]
   },
   {
     "name": "치세(수영복)",
+    "nameJp": "チセ（水着）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -2121,10 +2839,14 @@
     "aliases": [
       "치세(수영복)",
       "수치세"
+    ],
+    "aliasesJp": [
+      "チセ（水着）"
     ]
   },
   {
     "name": "시즈코(수영복)",
+    "nameJp": "シズコ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2133,10 +2855,14 @@
     "aliases": [
       "시즈코(수영복)",
       "수즈코"
+    ],
+    "aliasesJp": [
+      "シズコ（水着）"
     ]
   },
   {
     "name": "와카모(수영복)",
+    "nameJp": "ワカモ（水着）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2145,10 +2871,14 @@
     "aliases": [
       "와카모(수영복)",
       "수카모"
+    ],
+    "aliasesJp": [
+      "ワカモ（水着）"
     ]
   },
   {
     "name": "와카모",
+    "nameJp": "ワカモ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2156,10 +2886,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "와카모"
+    ],
+    "aliasesJp": [
+      "ワカモ"
     ]
   },
   {
     "name": "유카리",
+    "nameJp": "ユカリ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -2167,21 +2901,29 @@
     "defenseType": "중장갑",
     "aliases": [
       "유카리"
+    ],
+    "aliasesJp": [
+      "ユカリ"
     ]
   },
   {
-    "name": "키교",
+    "name": "키쿄",
+    "nameJp": "キキョウ",
     "range": 750,
     "cover": true,
     "role": "striker",
     "attackType": "진동",
     "defenseType": "중장갑",
     "aliases": [
-      "키교"
+      "키쿄"
+    ],
+    "aliasesJp": [
+      "キキョウ"
     ]
   },
   {
     "name": "미모리(수영복)",
+    "nameJp": "ミモリ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2190,10 +2932,14 @@
     "aliases": [
       "미모리(수영복)",
       "수모리"
+    ],
+    "aliasesJp": [
+      "ミモリ（水着）"
     ]
   },
   {
     "name": "이즈나(수영복)",
+    "nameJp": "イズナ（水着）",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -2202,10 +2948,14 @@
     "aliases": [
       "이즈나(수영복)",
       "수즈나"
+    ],
+    "aliasesJp": [
+      "イズナ（水着）"
     ]
   },
   {
     "name": "렌게",
+    "nameJp": "レンゲ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2213,10 +2963,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "렌게"
+    ],
+    "aliasesJp": [
+      "レンゲ"
     ]
   },
   {
     "name": "유카리(수영복)",
+    "nameJp": "ユカリ（水着）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2226,10 +2980,14 @@
       "유카리(수영복)",
       "수카리",
       "수빵떡"
+    ],
+    "aliasesJp": [
+      "ユカリ（水着）"
     ]
   },
   {
     "name": "피나(가이드)",
+    "nameJp": "フィーナ（ガイド）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2238,10 +2996,14 @@
     "aliases": [
       "피나(가이드)",
       "가피나"
+    ],
+    "aliasesJp": [
+      "フィーナ（ガイド）"
     ]
   },
   {
     "name": "츠바키(가이드)",
+    "nameJp": "ツバキ（ガイド）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2250,10 +3012,14 @@
     "aliases": [
       "츠바키(가이드)",
       "가바키"
+    ],
+    "aliasesJp": [
+      "ツバキ（ガイド）"
     ]
   },
   {
     "name": "나구사",
+    "nameJp": "ナグサ",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -2261,10 +3027,14 @@
     "defenseType": "탄력장갑",
     "aliases": [
       "나구사"
+    ],
+    "aliasesJp": [
+      "ナグサ"
     ]
   },
   {
     "name": "미치루(드레스)",
+    "nameJp": "ミチル（ドレス）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2273,10 +3043,14 @@
     "aliases": [
       "미치루(드레스)",
       "드치루"
+    ],
+    "aliasesJp": [
+      "ミチル（ドレス）"
     ]
   },
   {
     "name": "츠쿠요(드레스)",
+    "nameJp": "ツクヨ（ドレス）",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -2285,10 +3059,14 @@
     "aliases": [
       "츠쿠요(드레스)",
       "드쿠요"
+    ],
+    "aliasesJp": [
+      "ツクヨ（ドレス）"
     ]
   },
   {
     "name": "렌게(수영복)",
+    "nameJp": "レンゲ（水着）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2297,10 +3075,14 @@
     "aliases": [
       "렌게(수영복)",
       "수렌게"
+    ],
+    "aliasesJp": [
+      "レンゲ（水着）"
     ]
   },
   {
     "name": "키쿄(수영복)",
+    "nameJp": "キキョウ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2309,10 +3091,14 @@
     "aliases": [
       "키쿄(수영복)",
       "수키쿄"
+    ],
+    "aliasesJp": [
+      "キキョウ（水着）"
     ]
   },
   {
     "name": "슌(어린이)",
+    "nameJp": "シュン（幼女）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2322,10 +3108,14 @@
       "슌(어린이)",
       "슈에링",
       "농슌"
+    ],
+    "aliasesJp": [
+      "シュン（幼女）"
     ]
   },
   {
     "name": "코코나",
+    "nameJp": "ココナ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -2333,10 +3123,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "코코나"
+    ],
+    "aliasesJp": [
+      "ココナ"
     ]
   },
   {
     "name": "슌",
+    "nameJp": "シュン",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2344,10 +3138,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "슌"
+    ],
+    "aliasesJp": [
+      "シュン"
     ]
   },
   {
     "name": "사야",
+    "nameJp": "サヤ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2355,10 +3153,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "사야"
+    ],
+    "aliasesJp": [
+      "サヤ"
     ]
   },
   {
     "name": "미나",
+    "nameJp": "ミナ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -2366,10 +3168,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "미나"
+    ],
+    "aliasesJp": [
+      "ミナ"
     ]
   },
   {
     "name": "레이죠",
+    "nameJp": "レイジョ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -2377,10 +3183,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "레이죠"
+    ],
+    "aliasesJp": [
+      "レイジョ"
     ]
   },
   {
     "name": "루미",
+    "nameJp": "ルミ",
     "range": 450,
     "cover": true,
     "role": "striker",
@@ -2388,10 +3198,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "루미"
+    ],
+    "aliasesJp": [
+      "ルミ"
     ]
   },
   {
     "name": "사야(사복)",
+    "nameJp": "サヤ（私服）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2400,10 +3214,14 @@
     "aliases": [
       "사야(사복)",
       "사사야"
+    ],
+    "aliasesJp": [
+      "サヤ（私服）"
     ]
   },
   {
     "name": "마리나",
+    "nameJp": "マリナ",
     "range": 350,
     "cover": true,
     "role": "striker",
@@ -2412,10 +3230,14 @@
     "aliases": [
       "마리나",
       "러시아루"
+    ],
+    "aliasesJp": [
+      "マリナ"
     ]
   },
   {
     "name": "토모에",
+    "nameJp": "トモエ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2423,10 +3245,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "토모에"
+    ],
+    "aliasesJp": [
+      "トモエ"
     ]
   },
   {
     "name": "체리노",
+    "nameJp": "チェリノ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -2434,10 +3260,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "체리노"
+    ],
+    "aliasesJp": [
+      "チェリノ"
     ]
   },
   {
     "name": "키사키",
+    "nameJp": "キサキ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2445,10 +3275,14 @@
     "defenseType": "탄력장갑",
     "aliases": [
       "키사키"
+    ],
+    "aliasesJp": [
+      "キサキ"
     ]
   },
   {
     "name": "노도카(온천)",
+    "nameJp": "ノドカ（温泉）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2457,10 +3291,14 @@
     "aliases": [
       "노도카(온천)",
       "온도카"
+    ],
+    "aliasesJp": [
+      "ノドカ（温泉）"
     ]
   },
   {
     "name": "체리노(온천)",
+    "nameJp": "チェリノ（温泉）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2469,10 +3307,14 @@
     "aliases": [
       "체리노(온천)",
       "온리노"
+    ],
+    "aliasesJp": [
+      "チェリノ（温泉）"
     ]
   },
   {
     "name": "시구레",
+    "nameJp": "シグレ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -2480,10 +3322,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "시구레"
+    ],
+    "aliasesJp": [
+      "シグレ"
     ]
   },
   {
     "name": "노도카",
+    "nameJp": "ノドカ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2491,10 +3337,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "노도카"
+    ],
+    "aliasesJp": [
+      "ノドカ"
     ]
   },
   {
     "name": "모미지",
+    "nameJp": "モミジ",
     "range": 850,
     "cover": true,
     "role": "striker",
@@ -2502,10 +3352,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "모미지"
+    ],
+    "aliasesJp": [
+      "モミジ"
     ]
   },
   {
     "name": "메루",
+    "nameJp": "メル",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -2513,10 +3367,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "메루"
+    ],
+    "aliasesJp": [
+      "メル"
     ]
   },
   {
     "name": "미노리",
+    "nameJp": "ミノリ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2524,10 +3382,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "미노리"
+    ],
+    "aliasesJp": [
+      "ミノリ"
     ]
   },
   {
     "name": "시구레(온천)",
+    "nameJp": "シグレ（温泉）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2536,10 +3398,14 @@
     "aliases": [
       "시구레(온천)",
       "온구레"
+    ],
+    "aliasesJp": [
+      "シグレ（温泉）"
     ]
   },
   {
     "name": "타카네",
+    "nameJp": "タカネ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -2547,10 +3413,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "타카네"
+    ],
+    "aliasesJp": [
+      "タカネ"
     ]
   },
   {
     "name": "야쿠모",
+    "nameJp": "ヤクモ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2558,10 +3428,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "야쿠모"
+    ],
+    "aliasesJp": [
+      "ヤクモ"
     ]
   },
   {
     "name": "토모에(치파오)",
+    "nameJp": "トモエ（チーパオ）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2570,10 +3444,14 @@
     "aliases": [
       "토모에(치파오)",
       "치모에"
+    ],
+    "aliasesJp": [
+      "トモエ（チーパオ）"
     ]
   },
   {
     "name": "마리나(치파오)",
+    "nameJp": "マリナ（チーパオ）",
     "range": 350,
     "cover": true,
     "role": "striker",
@@ -2582,10 +3460,14 @@
     "aliases": [
       "마리나(치파오)",
       "치리나"
+    ],
+    "aliasesJp": [
+      "マリナ（チーパオ）"
     ]
   },
   {
     "name": "코노카",
+    "nameJp": "コノカ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -2593,10 +3475,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "코노카"
+    ],
+    "aliasesJp": [
+      "コノカ"
     ]
   },
   {
     "name": "칸나",
+    "nameJp": "カンナ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2604,10 +3490,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "칸나"
+    ],
+    "aliasesJp": [
+      "カンナ"
     ]
   },
   {
     "name": "후부키",
+    "nameJp": "フブキ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2615,10 +3505,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "후부키"
+    ],
+    "aliasesJp": [
+      "フブキ"
     ]
   },
   {
     "name": "키리노",
+    "nameJp": "キリノ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -2626,10 +3520,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "키리노"
+    ],
+    "aliasesJp": [
+      "キリノ"
     ]
   },
   {
     "name": "미야코",
+    "nameJp": "ミヤコ",
     "range": 350,
     "cover": true,
     "role": "striker",
@@ -2637,10 +3535,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "미야코"
+    ],
+    "aliasesJp": [
+      "ミヤコ"
     ]
   },
   {
     "name": "키리노(수영복)",
+    "nameJp": "キリノ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2649,10 +3551,14 @@
     "aliases": [
       "키리노(수영복)",
       "수리노"
+    ],
+    "aliasesJp": [
+      "キリノ（水着）"
     ]
   },
   {
     "name": "후부키(수영복)",
+    "nameJp": "フブキ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2661,10 +3567,14 @@
     "aliases": [
       "후부키(수영복)",
       "수부키"
+    ],
+    "aliasesJp": [
+      "フブキ（水着）"
     ]
   },
   {
     "name": "칸나(수영복)",
+    "nameJp": "カンナ（水着）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -2673,10 +3583,14 @@
     "aliases": [
       "칸나(수영복)",
       "수칸나"
+    ],
+    "aliasesJp": [
+      "カンナ（水着）"
     ]
   },
   {
     "name": "미유(수영복)",
+    "nameJp": "ミユ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2685,10 +3599,14 @@
     "aliases": [
       "미유(수영복)",
       "수미유"
+    ],
+    "aliasesJp": [
+      "ミユ（水着）"
     ]
   },
   {
     "name": "모에",
+    "nameJp": "モエ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2696,10 +3614,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "모에"
+    ],
+    "aliasesJp": [
+      "モエ"
     ]
   },
   {
     "name": "미유",
+    "nameJp": "ミユ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2707,10 +3629,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "미유"
+    ],
+    "aliasesJp": [
+      "ミユ"
     ]
   },
   {
     "name": "사키",
+    "nameJp": "サキ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2718,10 +3644,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "사키"
+    ],
+    "aliasesJp": [
+      "サキ"
     ]
   },
   {
     "name": "니코",
+    "nameJp": "ニコ",
     "range": 450,
     "cover": false,
     "role": "striker",
@@ -2729,10 +3659,14 @@
     "defenseType": "탄력장갑",
     "aliases": [
       "니코"
+    ],
+    "aliasesJp": [
+      "ニコ"
     ]
   },
   {
     "name": "모에(수영복)",
+    "nameJp": "モエ（水着）",
     "range": 550,
     "cover": false,
     "role": "striker",
@@ -2741,10 +3675,14 @@
     "aliases": [
       "모에(수영복)",
       "수모에"
+    ],
+    "aliasesJp": [
+      "モエ（水着）"
     ]
   },
   {
     "name": "사키(수영복)",
+    "nameJp": "サキ（水着）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -2753,10 +3691,14 @@
     "aliases": [
       "사키(수영복)",
       "수사키"
+    ],
+    "aliasesJp": [
+      "サキ（水着）"
     ]
   },
   {
     "name": "미야코(수영복)",
+    "nameJp": "ミヤコ（水着）",
     "range": 350,
     "cover": true,
     "role": "striker",
@@ -2765,10 +3707,14 @@
     "aliases": [
       "미야코(수영복)",
       "수야코"
+    ],
+    "aliasesJp": [
+      "ミヤコ（水着）"
     ]
   },
   {
     "name": "히요리",
+    "nameJp": "ヒヨリ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2776,10 +3722,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "히요리"
+    ],
+    "aliasesJp": [
+      "ヒヨリ"
     ]
   },
   {
     "name": "미사키",
+    "nameJp": "ミサキ",
     "range": 850,
     "cover": true,
     "role": "striker",
@@ -2787,10 +3737,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "미사키"
+    ],
+    "aliasesJp": [
+      "ミサキ"
     ]
   },
   {
     "name": "오토기",
+    "nameJp": "オトギ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2798,10 +3752,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "오토기"
+    ],
+    "aliasesJp": [
+      "オトギ"
     ]
   },
   {
     "name": "쿠루미",
+    "nameJp": "クルミ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -2809,10 +3767,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "쿠루미"
+    ],
+    "aliasesJp": [
+      "クルミ"
     ]
   },
   {
     "name": "히요리(수영복)",
+    "nameJp": "ヒヨリ（水着）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2821,10 +3783,14 @@
     "aliases": [
       "히요리(수영복)",
       "수요리"
+    ],
+    "aliasesJp": [
+      "ヒヨリ（水着）"
     ]
   },
   {
     "name": "사오리(수영복)",
+    "nameJp": "サオリ（水着）",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -2833,10 +3799,14 @@
     "aliases": [
       "사오리(수영복)",
       "싸오리"
+    ],
+    "aliasesJp": [
+      "サオリ（水着）"
     ]
   },
   {
     "name": "사오리",
+    "nameJp": "サオリ",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -2844,10 +3814,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "사오리"
+    ],
+    "aliasesJp": [
+      "サオリ"
     ]
   },
   {
     "name": "아츠코",
+    "nameJp": "アツコ",
     "range": 350,
     "cover": true,
     "role": "striker",
@@ -2855,10 +3829,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "아츠코"
+    ],
+    "aliasesJp": [
+      "アツコ"
     ]
   },
   {
     "name": "스바루",
+    "nameJp": "スバル",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -2866,10 +3844,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "스바루"
+    ],
+    "aliasesJp": [
+      "スバル"
     ]
   },
   {
     "name": "사오리(드레스)",
+    "nameJp": "サオリ（ドレス）",
     "range": 650,
     "cover": false,
     "role": "striker",
@@ -2878,10 +3860,14 @@
     "aliases": [
       "사오리(드레스)",
       "드오리"
+    ],
+    "aliasesJp": [
+      "サオリ（ドレス）"
     ]
   },
   {
     "name": "미사키(수영복)",
+    "nameJp": "ミサキ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2890,10 +3876,14 @@
     "aliases": [
       "미사키(수영복)",
       "익사키"
+    ],
+    "aliasesJp": [
+      "ミサキ（水着）"
     ]
   },
   {
     "name": "아츠코(수영복)",
+    "nameJp": "アツコ（水着）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -2902,10 +3892,14 @@
     "aliases": [
       "아츠코(수영복)",
       "수츠코"
+    ],
+    "aliasesJp": [
+      "アツコ（水着）"
     ]
   },
   {
     "name": "에리",
+    "nameJp": "エリ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2913,10 +3907,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "에리"
+    ],
+    "aliasesJp": [
+      "エリ"
     ]
   },
   {
     "name": "아오바",
+    "nameJp": "アオバ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -2925,10 +3923,14 @@
     "aliases": [
       "아오바",
       "아바오"
+    ],
+    "aliasesJp": [
+      "アオバ"
     ]
   },
   {
     "name": "노조미",
+    "nameJp": "ノゾミ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -2936,10 +3938,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "노조미"
+    ],
+    "aliasesJp": [
+      "ノゾミ"
     ]
   },
   {
     "name": "히카리",
+    "nameJp": "ヒカリ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -2947,10 +3953,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "히카리"
+    ],
+    "aliasesJp": [
+      "ヒカリ"
     ]
   },
   {
     "name": "후유",
+    "nameJp": "フユ",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -2958,10 +3968,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "후유"
+    ],
+    "aliasesJp": [
+      "フユ"
     ]
   },
   {
     "name": "미요",
+    "nameJp": "ミヨ",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -2969,10 +3983,14 @@
     "defenseType": "탄력장갑",
     "aliases": [
       "미요"
+    ],
+    "aliasesJp": [
+      "ミヨ"
     ]
   },
   {
     "name": "레나",
+    "nameJp": "レナ",
     "range": 550,
     "cover": false,
     "role": "striker",
@@ -2980,10 +3998,14 @@
     "defenseType": "경장갑",
     "aliases": [
       "레나"
+    ],
+    "aliasesJp": [
+      "レナ"
     ]
   },
   {
     "name": "카노에",
+    "nameJp": "カノエ",
     "range": 350,
     "cover": false,
     "role": "striker",
@@ -2991,10 +4013,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "카노에"
+    ],
+    "aliasesJp": [
+      "カノエ"
     ]
   },
   {
     "name": "리츠",
+    "nameJp": "リツ",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -3002,10 +4028,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "리츠"
+    ],
+    "aliasesJp": [
+      "リツ"
     ]
   },
   {
     "name": "사텐 루이코",
+    "nameJp": "佐天涙子",
     "range": 1500,
     "cover": false,
     "role": "special",
@@ -3013,10 +4043,14 @@
     "defenseType": "특수장갑",
     "aliases": [
       "사텐 루이코"
+    ],
+    "aliasesJp": [
+      "佐天涙子"
     ]
   },
   {
     "name": "쇼쿠호 미사키",
+    "nameJp": "食蜂操祈",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -3024,10 +4058,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "쇼쿠호 미사키"
+    ],
+    "aliasesJp": [
+      "食蜂操祈"
     ]
   },
   {
     "name": "미사카 미코토",
+    "nameJp": "御坂美琴",
     "range": 650,
     "cover": true,
     "role": "striker",
@@ -3035,10 +4073,14 @@
     "defenseType": "중장갑",
     "aliases": [
       "미사카 미코토"
+    ],
+    "aliasesJp": [
+      "御坂美琴"
     ]
   },
   {
     "name": "미쿠",
+    "nameJp": "初音ミク",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -3046,10 +4088,15 @@
     "defenseType": "경장갑",
     "aliases": [
       "미쿠"
+    ],
+    "aliasesJp": [
+      "初音ミク",
+      "ミク"
     ]
   },
   {
     "name": "무츠키(드레스)",
+    "nameJp": "ムツキ（ドレス）",
     "range": 1000,
     "cover": false,
     "role": "special",
@@ -3058,10 +4105,14 @@
     "aliases": [
       "무츠키(드레스)",
       "드츠키"
+    ],
+    "aliasesJp": [
+      "ムツキ（ドレス）"
     ]
   },
   {
     "name": "하루카(드레스)",
+    "nameJp": "ハルカ（ドレス）",
     "range": 450,
     "cover": false,
     "role": "striker",
@@ -3070,10 +4121,14 @@
     "aliases": [
       "하루카(드레스)",
       "드루카"
+    ],
+    "aliasesJp": [
+      "ハルカ（ドレス）"
     ]
   },
   {
     "name": "나구사(수영복)",
+    "nameJp": "ナグサ（水着）",
     "range": 750,
     "cover": false,
     "role": "striker",
@@ -3082,10 +4137,14 @@
     "aliases": [
       "나구사(수영복)",
       "수구사"
+    ],
+    "aliasesJp": [
+      "ナグサ（水着）"
     ]
   },
   {
     "name": "키사키(수영복)",
+    "nameJp": "キサキ（水着）",
     "range": 550,
     "cover": true,
     "role": "striker",
@@ -3094,10 +4153,14 @@
     "aliases": [
       "키사키(수영복)",
       "수키키"
+    ],
+    "aliasesJp": [
+      "キサキ（水着）"
     ]
   },
   {
     "name": "슌(수영복)",
+    "nameJp": "シュン（水着）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -3106,10 +4169,14 @@
     "aliases": [
       "슌(수영복)",
       "수슌"
+    ],
+    "aliasesJp": [
+      "シュン（水着）"
     ]
   },
   {
     "name": "슈에링(수영복)",
+    "nameJp": "シュン（水着, 幼女）",
     "range": 750,
     "cover": true,
     "role": "striker",
@@ -3118,6 +4185,9 @@
     "aliases": [
       "슈에링(수영복)",
       "수에링"
+    ],
+    "aliasesJp": [
+      "シュン（水着, 幼女）"
     ]
   }
 ]
