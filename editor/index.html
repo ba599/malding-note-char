@@ -38,6 +38,11 @@
     .character-row select {
       padding: 5px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;
     }
+    .alias-field { display: flex; flex-direction: column; gap: 2px; }
+    .alias-warn {
+      display: none; max-width: 200px; font-size: 11px; color: #e55;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
     .character-row label { display: flex; align-items: center; gap: 4px; font-size: 14px; }
     .character-row.striker { background: #fff0f0; }
     .character-row.special { background: #f0f0ff; }
@@ -72,6 +77,7 @@
     let characters = [];
     let sortMode = 'none'; // 'none' | 'asc' | 'desc'
     let activeIdx = -1;
+    let aliasFields = []; // 화면에 그려진 별명 입력창들 (중복 경고 갱신용)
 
     const listEl = document.getElementById('character-list');
     const filterEl = document.getElementById('filter-role');
@@ -143,8 +149,54 @@
       }
     }
 
+    // 별명 → 그 별명을 쓰는 캐릭터 목록. 캐릭터 하나가 같은 별명을 중복 입력해도 한 번만 센다.
+    function buildAliasIndex(key) {
+      const index = new Map();
+      characters.forEach(c => {
+        const seen = new Set();
+        (c[key] || []).forEach(a => {
+          if (!a || seen.has(a)) return;
+          seen.add(a);
+          if (!index.has(a)) index.set(a, []);
+          index.get(a).push(c);
+        });
+      });
+      return index;
+    }
+
+    // 이름은 비교 대상이 아니고, 한글/일본어 별명은 서로 별개로 본다.
+    function refreshAliasWarnings() {
+      const indexes = { aliases: buildAliasIndex('aliases'), aliasesJp: buildAliasIndex('aliasesJp') };
+      aliasFields.forEach(({ char, input, warn, key }) => {
+        const index = indexes[key];
+        const seen = new Set();
+        const hits = [];
+        (char[key] || []).forEach(a => {
+          if (seen.has(a)) return;
+          seen.add(a);
+          const others = (index.get(a) || []).filter(c => c !== char);
+          if (others.length) hits.push(a + ' → ' + others.map(c => c.name || '(이름없음)').join(', '));
+        });
+        const text = hits.join(' / ');
+        input.style.outline = text ? '2px solid #e55' : '';
+        warn.textContent = text ? '⚠ ' + text : '';
+        warn.title = text;
+        warn.style.display = text ? 'block' : 'none';
+      });
+    }
+
+    function makeAliasField(input) {
+      const field = document.createElement('div');
+      field.className = 'alias-field';
+      const warn = document.createElement('div');
+      warn.className = 'alias-warn';
+      field.append(input, warn);
+      return { field, warn };
+    }
+
     function render() {
       listEl.innerHTML = '';
+      aliasFields = [];
       const filter = filterEl.value;
       const sortLabels = { none: '정렬 없음', asc: '이름순 ▲', desc: '이름순 ▼' };
       document.getElementById('btn-sort').textContent = sortLabels[sortMode];
@@ -217,8 +269,11 @@
         aliasInput.value = char.aliases.join(', ');
         aliasInput.oninput = () => {
           char.aliases = aliasInput.value.split(',').map(s => s.trim()).filter(Boolean);
+          refreshAliasWarnings();
           scheduleSave();
         };
+        const alias = makeAliasField(aliasInput);
+        aliasFields.push({ char, input: aliasInput, warn: alias.warn, key: 'aliases' });
 
         const aliasJpInput = document.createElement('input');
         aliasJpInput.type = 'text'; aliasJpInput.name = 'aliasesJp';
@@ -226,8 +281,11 @@
         aliasJpInput.value = (char.aliasesJp || []).join(', ');
         aliasJpInput.oninput = () => {
           char.aliasesJp = aliasJpInput.value.split(',').map(s => s.trim()).filter(Boolean);
+          refreshAliasWarnings();
           scheduleSave();
         };
+        const aliasJp = makeAliasField(aliasJpInput);
+        aliasFields.push({ char, input: aliasJpInput, warn: aliasJp.warn, key: 'aliasesJp' });
 
         const delBtn = document.createElement('button');
         delBtn.className = 'btn-delete'; delBtn.textContent = '삭제';
@@ -241,9 +299,11 @@
         }
         row.addEventListener('focusin', activateRow);
         row.addEventListener('click', activateRow);
-        row.append(nameInput, nameJpInput, roleSelect, atkSelect, defSelect, rangeSelect, coverLabel, aliasInput, aliasJpInput, delBtn);
+        row.append(nameInput, nameJpInput, roleSelect, atkSelect, defSelect, rangeSelect, coverLabel, alias.field, aliasJp.field, delBtn);
         listEl.appendChild(row);
       });
+
+      refreshAliasWarnings();
     }
 
     document.getElementById('btn-add').onclick = () => {
