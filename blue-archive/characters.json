@@ -2480,7 +2480,9 @@
     "aliases": [
       "사쿠라코(아이돌)",
       "아쿠라코",
-      "돌쿠라코"
+      "돌쿠라코",
+      "아왓삐",
+      "돌왓삐"
     ],
     "aliasesJp": [
       "サクラコ（アイドル）"
@@ -4136,7 +4138,8 @@
     "defenseType": "중장갑",
     "aliases": [
       "나구사(수영복)",
-      "수구사"
+      "수구사",
+      "수나구"
     ],
     "aliasesJp": [
       "ナグサ（水着）"
@@ -4188,6 +4191,54 @@
     ],
     "aliasesJp": [
       "シュン（水着, 幼女）"
+    ]
+  },
+  {
+    "name": "사츠키(수영복)",
+    "nameJp": "サツキ（水着）",
+    "range": 550,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "탄력장갑",
+    "aliases": [
+      "사츠키(수영복)",
+      "수츠키"
+    ],
+    "aliasesJp": [
+      "サツキ（水着）"
+    ]
+  },
+  {
+    "name": "마코토(수영복)",
+    "nameJp": "マコト（水着）",
+    "range": 750,
+    "cover": true,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "중장갑",
+    "aliases": [
+      "마코토(수영복)",
+      "수코토"
+    ],
+    "aliasesJp": [
+      "マコト（水着）"
+    ]
+  },
+  {
+    "name": "치아키(수영복)",
+    "nameJp": "チアキ（水着）",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "중장갑",
+    "aliases": [
+      "치아키(수영복)",
+      "수아키"
+    ],
+    "aliasesJp": [
+      "チアキ（水着）"
     ]
   }
 ]
