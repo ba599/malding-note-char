@@ -3568,7 +3568,8 @@
     "defenseType": "중장갑",
     "aliases": [
       "후부키(수영복)",
-      "수부키"
+      "수도넛",
+      "수영복후부키"
     ],
     "aliasesJp": [
       "フブキ（水着）"
@@ -4239,6 +4240,38 @@
     ],
     "aliasesJp": [
       "チアキ（水着）"
+    ]
+  },
+  {
+    "name": "이로하(수영복)",
+    "nameJp": "イロハ（水着）",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "이로하(수영복)",
+      "수로하"
+    ],
+    "aliasesJp": [
+      "イロハ（水着）"
+    ]
+  },
+  {
+    "name": "이부키(수영복)",
+    "nameJp": "イブキ（水着）",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "이부키(수영복)",
+      "수부키"
+    ],
+    "aliasesJp": [
+      "イブキ（水着）"
     ]
   }
 ]
