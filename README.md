@@ -9,3 +9,7 @@ cd editor && npm install && node server.js
 ```
 
 http://localhost:3000 으로 접속.
+
+## 여기 보고 업뎃하믄 됨
+
+https://bluearchive.wikiru.jp/?%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E5%AE%9F%E8%A3%85%E5%B1%A5%E6%AD%B4

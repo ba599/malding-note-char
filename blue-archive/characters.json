@@ -4273,5 +4273,35 @@
     "aliasesJp": [
       "イブキ（水着）"
     ]
+  },
+  {
+    "name": "코코로",
+    "nameJp": "ココロ",
+    "range": 650,
+    "cover": false,
+    "role": "striker",
+    "attackType": "신비",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "코코로"
+    ],
+    "aliasesJp": [
+      "ココロ"
+    ]
+  },
+  {
+    "name": "코토네",
+    "nameJp": "コトネ",
+    "range": 350,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "코토네"
+    ],
+    "aliasesJp": [
+      "コトネ"
+    ]
   }
 ]
