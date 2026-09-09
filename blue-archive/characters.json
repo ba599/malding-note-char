@@ -169,7 +169,8 @@
     "defenseType": "중장갑",
     "aliases": [
       "세리카(수영복)",
-      "수리카"
+      "수리카",
+      "수캬루"
     ],
     "aliasesJp": [
       "セリカ（水着）"
@@ -4302,6 +4303,22 @@
     ],
     "aliasesJp": [
       "コトネ"
+    ]
+  },
+  {
+    "name": "카스미(수영복)",
+    "nameJp": "カスミ（水着）",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "카스미(수영복)",
+      "수카스"
+    ],
+    "aliasesJp": [
+      "カスミ（水着）"
     ]
   }
 ]
