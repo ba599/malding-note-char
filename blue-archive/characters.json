@@ -4320,5 +4320,50 @@
     "aliasesJp": [
       "カスミ（水着）"
     ]
+  },
+  {
+    "name": "안나",
+    "nameJp": "アンナ",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "경장갑",
+    "aliases": [
+      "안나"
+    ],
+    "aliasesJp": [
+      "アンナ"
+    ]
+  },
+  {
+    "name": "에리나",
+    "nameJp": "エリナ",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "진동",
+    "defenseType": "경장갑",
+    "aliases": [
+      "에리나"
+    ],
+    "aliasesJp": [
+      "エリナ"
+    ]
+  },
+  {
+    "name": "츠무기",
+    "nameJp": "ツムギ",
+    "range": 350,
+    "cover": true,
+    "role": "striker",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "츠무기"
+    ],
+    "aliasesJp": [
+      "ツムギ"
+    ]
   }
 ]
