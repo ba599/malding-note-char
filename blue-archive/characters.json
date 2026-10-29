@@ -4365,5 +4365,52 @@
     "aliasesJp": [
       "ツムギ"
     ]
+  },
+  {
+    "name": "히후미(레이싱)",
+    "nameJp": "ヒフミ（レーシング）",
+    "range": 650,
+    "cover": true,
+    "role": "striker",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "히후미(레이싱)",
+      "레후미"
+    ],
+    "aliasesJp": [
+      "ヒフミ（レーシング）"
+    ]
+  },
+  {
+    "name": "아즈사(레이싱)",
+    "nameJp": "アズサ（レーシング）",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "아즈사(레이싱)",
+      "레즈사"
+    ],
+    "aliasesJp": [
+      "アズサ（レーシング）"
+    ]
+  },
+  {
+    "name": "라나",
+    "nameJp": "ラナ",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "폭발",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "라나"
+    ],
+    "aliasesJp": [
+      "ラナ"
+    ]
   }
 ]
