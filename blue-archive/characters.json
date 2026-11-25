@@ -4412,5 +4412,35 @@
     "aliasesJp": [
       "ラナ"
     ]
+  },
+  {
+    "name": "마나미",
+    "nameJp": "マナミ",
+    "range": 350,
+    "cover": true,
+    "role": "striker",
+    "attackType": "진동",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "마나미"
+    ],
+    "aliasesJp": [
+      "マナミ"
+    ]
+  },
+  {
+    "name": "우라라",
+    "nameJp": "ウララ",
+    "range": 1000,
+    "cover": false,
+    "role": "special",
+    "attackType": "관통",
+    "defenseType": "특수장갑",
+    "aliases": [
+      "우라라"
+    ],
+    "aliasesJp": [
+      "ウララ"
+    ]
   }
 ]
